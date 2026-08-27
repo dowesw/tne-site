@@ -1,189 +1,153 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="fr">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Formations — TNE</title>
-    <meta name="description"
-        content="Formations certifiantes en réseaux, cybersécurité et télécommunications pour professionnels IT — TNE Douala, Cameroun." />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link
-        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Outfit:wght@300;400;500;600;700&display=swap"
-        rel="stylesheet" />
-    <link rel="icon" href="../../images/favicon.png" type="image/png" />  <link rel="stylesheet" href="../../css/style.css" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Formations — TNE</title>
+  <meta name="description" content="Formations certifiantes en reseaux, securite, VoIP et cloud — TNE Douala." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Outfit:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet" />
+  <link rel="icon" href="../../images/favicon.png" type="image/png" />
+  <script src="../../js/i18n.js"></script>
+  <link rel="stylesheet" href="../../css/style.css" />
 </head>
 
 <body>
-    <nav class="navbar scrolled" id="navbar">
-        <div class="nav-container">
-            <a href="../../index.html" class="nav-logo"><img src="../../images/logo.png" alt="TNE"
-                    class="logo-img" /></a>
-            <ul class="nav-links" id="navLinks">
-                <li><a href="../../index.html" class="nav-link">Accueil</a></li>
-                <li><a href="../../index.html#services" class="nav-link">Services</a></li>
-                <li><a href="../../index.html#produits" class="nav-link">Produits</a></li>
-                <li><a href="../../index.html#about" class="nav-link">À propos</a></li>
-                <li><a href="../../index.html#partenaires" class="nav-link">Partenaires</a></li>
-                <li><a href="../../index.html#contact" class="nav-link nav-cta">Contactez-nous</a></li>
-            </ul>
-            <button class="nav-toggle" id="navToggle" aria-label="Menu"><span></span><span></span><span></span></button>
-        </div>
-    </nav>
-
-    <div class="page-hero">
-        <div class="container">
-            <div class="breadcrumb">
-                <a href="../../index.html">Accueil</a><span>›</span>
-                <a href="../../index.html#services">Services</a><span>›</span>
-                <span>Formations</span>
-            </div>
-            <div class="page-hero-inner">
-                <div class="page-hero-icon">
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
-                        <path d="M12 20h9" />
-                        <path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z" />
-                    </svg>
-                </div>
-                <div class="page-hero-text reveal">
-                    <span class="section-tag">Formation</span>
-                    <h1><span class="gradient-text">Formations</span> IT & Télécoms</h1>
-                    <p>Programmes de formation professionnels et certifiants pour développer les compétences de vos
-                        équipes en réseaux, cybersécurité et télécommunications.</p>
-                </div>
-            </div>
-        </div>
+  <nav class="navbar scrolled" id="navbar">
+    <div class="nav-container">
+      <a href="../../index.html" class="nav-logo"><img src="../../images/logo.png" alt="TNE" class="logo-img" /></a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="../../index.html" class="nav-link" data-i18n-en="Home">Accueil</a></li>
+        <li><a href="../../index.html#services" class="nav-link" data-i18n-en="Services">Services</a></li>
+        <li><a href="../../index.html#produits" class="nav-link" data-i18n-en="Products">Produits</a></li>
+        <li><a href="../../index.html#about" class="nav-link" data-i18n-en="About">A propos</a></li>
+        <li><a href="../../index.html#partenaires" class="nav-link" data-i18n-en="Partners">Partenaires</a></li>
+        <li><a href="../../index.html#contact" class="nav-link nav-cta" data-i18n-en="Contact Us">Contactez-nous</a>
+        </li>
+      </ul>
+      <div class="lang-toggle"><button class="lang-btn active" data-lang="fr">FR</button><button class="lang-btn"
+          data-lang="en">EN</button></div>
+      <button class="nav-toggle" id="navToggle" aria-label="Menu"><span></span><span></span><span></span></button>
     </div>
-
-    <section class="section">
-        <div class="container">
-            <div class="section-header reveal">
-                <span class="section-tag">Catalogue</span>
-                <h2 class="section-title">Nos <span class="gradient-text">formations</span></h2>
-            </div>
-            <div class="features-grid">
-                <div class="feature-card reveal" data-delay="0">
-                    <div class="feature-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                            stroke-width="1.5">
-                            <rect x="2" y="2" width="20" height="8" rx="2" />
-                            <rect x="2" y="14" width="20" height="8" rx="2" />
-                            <line x1="6" y1="6" x2="6.01" y2="6" />
-                            <line x1="6" y1="18" x2="6.01" y2="18" />
-                        </svg></div>
-                    <h4>Réseaux Informatiques</h4>
-                    <p>Cisco CCNA/CCNP, Mikrotik MTCNA, fondamentaux TCP/IP, routage, switching et infrastructure
-                        réseau.</p>
-                </div>
-                <div class="feature-card reveal" data-delay="100">
-                    <div class="feature-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                            stroke-width="1.5">
-                            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
-                        </svg></div>
-                    <h4>Cybersécurité</h4>
-                    <p>Sécurité des réseaux, analyse des menaces, ethical hacking, CompTIA Security+, CEH et gestion des
-                        incidents.</p>
-                </div>
-                <div class="feature-card reveal" data-delay="200">
-                    <div class="feature-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                            stroke-width="1.5">
-                            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07" />
-                            <circle cx="12" cy="12" r="10" />
-                        </svg></div>
-                    <h4>Téléphonie IP & VoIP</h4>
-                    <p>Installation PABX IP, configuration Innovaphone, administration SIP et déploiement de solutions
-                        Unified Communications.</p>
-                </div>
-                <div class="feature-card reveal" data-delay="0">
-                    <div class="feature-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                            stroke-width="1.5">
-                            <rect x="2" y="3" width="20" height="14" rx="2" />
-                            <path d="M8 21h8M12 17v4" />
-                        </svg></div>
-                    <h4>Administration Systèmes</h4>
-                    <p>Windows Server, Linux, Active Directory, virtualisation VMware/Hyper-V et solutions cloud (Azure,
-                        AWS).</p>
-                </div>
-                <div class="feature-card reveal" data-delay="100">
-                    <div class="feature-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                            stroke-width="1.5">
-                            <path d="M15 10a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
-                            <path d="M19.5 10c0 7.142-7.5 11.25-7.5 11.25S4.5 17.142 4.5 10a7.5 7.5 0 1 1 15 0z" />
-                        </svg></div>
-                    <h4>Vidéosurveillance & Sécurité</h4>
-                    <p>Installation et configuration de systèmes CCTV, contrôle d'accès biométrique et systèmes
-                        d'alarme.</p>
-                </div>
-                <div class="feature-card reveal" data-delay="200">
-                    <div class="feature-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                            stroke-width="1.5">
-                            <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
-                            <circle cx="9" cy="7" r="4" />
-                            <path d="M23 21v-2a4 4 0 0 0-3-3.87" />
-                            <path d="M16 3.13a4 4 0 0 1 0 7.75" />
-                        </svg></div>
-                    <h4>Formations Sur Mesure</h4>
-                    <p>Programmes personnalisés conçus selon les besoins spécifiques et le niveau de votre équipe IT.
-                    </p>
-                </div>
-            </div>
-
-            <div class="section-header reveal" style="margin-top:80px">
-                <span class="section-tag">Notre approche pédagogique</span>
-                <h2 class="section-title">Formation <span class="gradient-text">pratique</span> & certifiante</h2>
-            </div>
-            <div class="benefits-grid">
-                <div class="benefit-item reveal">
-                    <div class="benefit-num">01</div>
-                    <div>
-                        <h5>Formateurs Experts</h5>
-                        <p>Ingénieurs certifiés et praticiens avec plusieurs années d'expérience terrain en entreprise.
-                        </p>
-                    </div>
-                </div>
-                <div class="benefit-item reveal">
-                    <div class="benefit-num">02</div>
-                    <div>
-                        <h5>Labs Pratiques</h5>
-                        <p>80% de pratique en laboratoire sur équipements réels Cisco, Mikrotik, et Innovaphone.</p>
-                    </div>
-                </div>
-                <div class="benefit-item reveal">
-                    <div class="benefit-num">03</div>
-                    <div>
-                        <h5>Certifications Reconnues</h5>
-                        <p>Préparation aux certifications internationales Cisco, CompTIA, Microsoft et autres éditeurs.
-                        </p>
-                    </div>
-                </div>
-                <div class="benefit-item reveal">
-                    <div class="benefit-num">04</div>
-                    <div>
-                        <h5>Format Flexible</h5>
-                        <p>Formations en présentiel, à distance ou hybride. Groupes de 5 à 20 participants ou formation
-                            individuelle.</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="page-cta reveal">
-                <h3>Inscrivez votre équipe à une <span class="gradient-text">formation</span></h3>
-                <p>Contactez-nous pour recevoir notre catalogue complet et un devis sur mesure pour votre organisation.
-                </p>
-                <a href="../../index.html#contact" class="btn btn-primary">Demander le catalogue</a>
-            </div>
+  </nav>
+  <div class="page-hero">
+    <div class="container">
+      <div class="breadcrumb"><a href="../../index.html" data-i18n-en="Home">Accueil</a><span>&rsaquo;</span><a
+          href="../../index.html#services" data-i18n-en="Services">Services</a><span>&rsaquo;</span><span
+          data-i18n-en="Training">Formations</span></div>
+      <div class="page-hero-inner">
+        <div class="page-hero-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+            <path d="M12 14l9-5-9-5-9 5 9 5z" />
+            <path
+              d="M12 14l6.16-3.422A12.083 12.083 0 0 1 21 12c0 3.314-4.03 6-9 6s-9-2.686-9-6a12.08 12.08 0 0 1 2.84-1.422L12 14z" />
+            <path d="M12 14v7" />
+          </svg></div>
+        <div class="page-hero-text reveal">
+          <span class="section-tag" data-i18n-en="Service">Service</span>
+          <h1 data-i18n-en="Professional <span class=&quot;gradient-text&quot;>Training</span>">Formations <span
+              class="gradient-text">Professionnelles</span></h1>
+          <p
+            data-i18n-en="Certified training in networks, security, VoIP and cloud to make your teams immediately operational.">
+            Formations certifiantes en reseaux, securite, VoIP et cloud pour rendre vos equipes immediatement
+            operationnelles.</p>
         </div>
-    </section>
-
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-bottom" style="padding:28px 0">
-                <span>© 2024 TNE — Telecoms & Network Engineering. Tous droits réservés.</span>
-                <a href="../../index.html" class="btn btn-ghost" style="padding:8px 20px;font-size:.85rem">← Retour à
-                    l'accueil</a>
-            </div>
+      </div>
+    </div>
+  </div>
+  <section class="section">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag" data-i18n-en="Our courses">Nos formations</span>
+        <h2 class="section-title" data-i18n-en="Upskill your <span class=&quot;gradient-text&quot;>teams</span>">Montez
+          en competences <span class="gradient-text">rapidement</span></h2>
+        <p class="section-desc"
+          data-i18n-en="Practical, hands-on training aligned with Cisco, CompTIA and ITIL certifications.">Formations
+          pratiques et operationnelles alignees aux certifications Cisco, CompTIA et ITIL.</p>
+      </div>
+      <div class="features-grid">
+        <div class="feature-card reveal" data-delay="0">
+          <div class="feature-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <rect x="2" y="2" width="8" height="8" rx="1" />
+              <rect x="14" y="2" width="8" height="8" rx="1" />
+              <rect x="8" y="14" width="8" height="8" rx="1" />
+              <path d="M6 10v4M18 10v4M10 18H6M18 18h-4" />
+            </svg></div>
+          <h4 data-i18n-en="Network Engineering">Ingenierie Reseaux</h4>
+          <p data-i18n-en="Cisco CCNA/CCNP, routing and switching, VLAN, OSPF, BGP. Theory and hands-on lab.">Cisco
+            CCNA/CCNP, routage et commutation, VLAN, OSPF, BGP. Theorie et labs pratiques.</p>
         </div>
-    </footer>
-    <script src="../../js/main.js"></script>
+        <div class="feature-card reveal" data-delay="100">
+          <div class="feature-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+            </svg></div>
+          <h4 data-i18n-en="Cybersecurity">Cybersecurite</h4>
+          <p data-i18n-en="Firewall, VPN, penetration testing, CompTIA Security+, ethical hacking fundamentals.">
+            Pare-feu, VPN, tests de penetration, CompTIA Security+, fondamentaux du hacking ethique.</p>
+        </div>
+        <div class="feature-card reveal" data-delay="200">
+          <div class="feature-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <path
+                d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.15 13.5 19.79 19.79 0 0 1 2 4.82 2 2 0 0 1 3.98 2.63h3a2 2 0 0 1 2 1.72.84.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45.84.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
+            </svg></div>
+          <h4 data-i18n-en="VoIP &amp; Telephony">VoIP &amp; Telephonie</h4>
+          <p data-i18n-en="Asterisk, FreePBX, Cisco CUCM: deployment, configuration and user management.">Asterisk,
+            FreePBX, Cisco CUCM : deploiement, configuration et gestion des utilisateurs.</p>
+        </div>
+        <div class="feature-card reveal" data-delay="0">
+          <div class="feature-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <circle cx="12" cy="12" r="10" />
+              <path
+                d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z" />
+            </svg></div>
+          <h4 data-i18n-en="Cloud &amp; Virtualization">Cloud &amp; Virtualisation</h4>
+          <p
+            data-i18n-en="AWS, Azure, Google Cloud basics. VMware, Proxmox, Docker: manage your virtual infrastructure.">
+            AWS, Azure, Google Cloud basics. VMware, Proxmox, Docker : gerez votre infrastructure virtuelle.</p>
+        </div>
+        <div class="feature-card reveal" data-delay="100"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+            stroke-width="1.5" style="display:none"></svg>
+          <div class="feature-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <path d="M15 10a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
+              <path d="M19.5 10c0 7.142-7.5 11.25-7.5 11.25S4.5 17.142 4.5 10a7.5 7.5 0 1 1 15 0z" />
+            </svg></div>
+          <h4 data-i18n-en="CCTV &amp; Access Control">Videosurveillance &amp; Acces</h4>
+          <p data-i18n-en="Installation, configuration and maintenance of CCTV, access control and intercom systems.">
+            Installation, configuration et maintenance des systemes CCTV, controle d acces et interphonie.</p>
+        </div>
+        <div class="feature-card reveal" data-delay="200">
+          <div class="feature-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <path d="M12 20h9" />
+              <path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z" />
+            </svg></div>
+          <h4 data-i18n-en="Custom Corporate Training">Formation sur Mesure</h4>
+          <p data-i18n-en="Tailored programs for your team. On-site or remote. Certificate of completion issued.">
+            Programmes adaptes a votre equipe. Presentiel ou a distance. Attestation de completion delivree.</p>
+        </div>
+      </div>
+      <div class="page-cta reveal">
+        <h3 data-i18n-en="Train your teams <span class=&quot;gradient-text&quot;>today</span>">Formez vos equipes <span
+            class="gradient-text">des maintenant</span></h3>
+        <p data-i18n-en="Group rates from 5 participants. Flexible schedules adapted to your business hours.">Tarifs de
+          groupe a partir de 5 participants. Calendriers flexibles adaptes a vos horaires.</p>
+        <a href="../../index.html#contact" class="btn btn-primary" data-i18n-en="Request a training plan">Demander un
+          plan de formation</a>
+      </div>
+    </div>
+  </section>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-bottom" style="padding:28px 0">
+        <span data-i18n-en="&copy; 2024 TNE &mdash; All rights reserved.">&copy; 2024 TNE &mdash; Telecoms &amp; Network
+          Engineering. Tous droits reserves.</span>
+        <a href="../../index.html" class="btn btn-ghost" style="padding:8px 20px;font-size:.85rem"
+          data-i18n-en="&larr; Back to home">&larr; Retour a l'accueil</a>
+      </div>
+    </div>
+  </footer>
+  <script src="../../js/main.js"></script>
 </body>
 
 </html>

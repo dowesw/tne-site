@@ -1,17 +1,17 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="fr">
 
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Contrôle d'Accès — TNE</title>
-    <meta name="description"
-        content="Solutions de contrôle d'accès biométrique, RFID et badges pour entreprises au Cameroun — TNE Douala." />
+    <title>Controle d'Acces — TNE</title>
+    <meta name="description" content="Solutions de controle d'acces biometrique, badges RFID — TNE Douala." />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link
         href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Outfit:wght@300;400;500;600;700&display=swap"
         rel="stylesheet" />
     <link rel="icon" href="../../images/favicon.png" type="image/png" />
+    <script src="../../js/i18n.js"></script>
     <link rel="stylesheet" href="../../css/style.css" />
 </head>
 
@@ -21,36 +21,40 @@
             <a href="../../index.html" class="nav-logo"><img src="../../images/logo.png" alt="TNE"
                     class="logo-img" /></a>
             <ul class="nav-links" id="navLinks">
-                <li><a href="../../index.html" class="nav-link">Accueil</a></li>
-                <li><a href="../../index.html#services" class="nav-link">Services</a></li>
-                <li><a href="../../index.html#produits" class="nav-link">Produits</a></li>
-                <li><a href="../../index.html#about" class="nav-link">À propos</a></li>
-                <li><a href="../../index.html#partenaires" class="nav-link">Partenaires</a></li>
-                <li><a href="../../index.html#contact" class="nav-link nav-cta">Contactez-nous</a></li>
+                <li><a href="../../index.html" class="nav-link" data-i18n-en="Home">Accueil</a></li>
+                <li><a href="../../index.html#services" class="nav-link" data-i18n-en="Services">Services</a></li>
+                <li><a href="../../index.html#produits" class="nav-link" data-i18n-en="Products">Produits</a></li>
+                <li><a href="../../index.html#about" class="nav-link" data-i18n-en="About">A propos</a></li>
+                <li><a href="../../index.html#partenaires" class="nav-link" data-i18n-en="Partners">Partenaires</a></li>
+                <li><a href="../../index.html#contact" class="nav-link nav-cta"
+                        data-i18n-en="Contact Us">Contactez-nous</a></li>
             </ul>
+            <div class="lang-toggle"><button class="lang-btn active" data-lang="fr">FR</button><button class="lang-btn"
+                    data-lang="en">EN</button></div>
             <button class="nav-toggle" id="navToggle" aria-label="Menu"><span></span><span></span><span></span></button>
         </div>
     </nav>
-
     <div class="page-hero">
         <div class="container">
             <div class="breadcrumb">
-                <a href="../../index.html">Accueil</a><span>›</span>
-                <a href="../../index.html#services">Services</a><span>›</span>
-                <span>Contrôle d'Accès</span>
+                <a href="../../index.html" data-i18n-en="Home">Accueil</a><span>&rsaquo;</span>
+                <a href="../../index.html#services" data-i18n-en="Services">Services</a><span>&rsaquo;</span>
+                <span data-i18n-en="Access Control">Controle d Acces</span>
             </div>
             <div class="page-hero-inner">
-                <div class="page-hero-icon">
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <div class="page-hero-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                        stroke-width="1.5">
                         <rect x="3" y="11" width="18" height="11" rx="2" />
                         <path d="M7 11V7a5 5 0 0 1 10 0v4" />
-                    </svg>
-                </div>
+                    </svg></div>
                 <div class="page-hero-text reveal">
-                    <span class="section-tag">Sécurité</span>
-                    <h1>Contrôle <span class="gradient-text">d'Accès</span></h1>
-                    <p>Gérez finement qui entre et sort de vos locaux grâce à des technologies biométriques, RFID et
-                        cartes badges pour une sécurité sans compromis.</p>
+                    <span class="section-tag" data-i18n-en="Service">Service</span>
+                    <h1 data-i18n-en="Access <span class=&quot;gradient-text&quot;>Control</span>">Controle <span
+                            class="gradient-text">d Acces</span></h1>
+                    <p
+                        data-i18n-en="Manage who enters and exits your premises using biometric, RFID and badge technologies for uncompromising security.">
+                        Gerez finement qui entre et sort de vos locaux grace a des technologies biometriques, RFID et
+                        cartes badges pour une securite sans compromis.</p>
                 </div>
             </div>
         </div>
@@ -59,10 +63,13 @@
     <section class="section">
         <div class="container">
             <div class="section-header reveal">
-                <span class="section-tag">Nos solutions</span>
-                <h2 class="section-title">Technologies <span class="gradient-text">d'accès</span></h2>
-                <p class="section-desc">Solutions flexibles et scalables pour tous types de bâtiments et
-                    d'organisations.</p>
+                <span class="section-tag" data-i18n-en="Our solutions">Nos solutions</span>
+                <h2 class="section-title"
+                    data-i18n-en="Access <span class=&quot;gradient-text&quot;>technologies</span>">Technologies <span
+                        class="gradient-text">d acces</span></h2>
+                <p class="section-desc"
+                    data-i18n-en="Flexible and scalable solutions for all building types and organizations.">Solutions
+                    flexibles et scalables pour tous types de batiments et d organisations.</p>
             </div>
             <div class="features-grid">
                 <div class="feature-card reveal" data-delay="0">
@@ -71,9 +78,9 @@
                             <path
                                 d="M12 11c0 3.517-1.009 6.799-2.753 9.571m-3.44-2.04.054-.09A13.916 13.916 0 008 11a4 4 0 118 0c0 1.017-.07 2.019-.203 3m-2.118 6.844A21.88 21.88 0 0015.171 17m3.839 1.132c.645-2.266.99-4.659.99-7.132A8 8 0 008 4.07M3 15.364c.64-1.319 1-2.8 1-4.364 0-1.457.39-2.823 1.07-4" />
                         </svg></div>
-                    <h4>Lecteurs Biométriques</h4>
-                    <p>Identification par empreinte digitale, reconnaissance faciale et iris. Zéro badge à perdre, zéro
-                        fraude possible.</p>
+                    <h4 data-i18n-en="Biometric Readers">Lecteurs Biometriques</h4>
+                    <p data-i18n-en="Fingerprint, facial and iris recognition. No badge to lose, no fraud possible.">
+                        Identification par empreinte, reconnaissance faciale et iris. Zero badge a perdre.</p>
                 </div>
                 <div class="feature-card reveal" data-delay="100">
                     <div class="feature-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
@@ -81,9 +88,10 @@
                             <path d="M20 7H4a2 2 0 00-2 2v6a2 2 0 002 2h16a2 2 0 002-2V9a2 2 0 00-2-2z" />
                             <path d="M16 11h.01M12 11h.01M8 11h.01" />
                         </svg></div>
-                    <h4>Badges & Cartes RFID</h4>
-                    <p>Cartes de proximité Mifare, 125 kHz, et HID. Programmation et révocation instantanée des droits
-                        d'accès.</p>
+                    <h4 data-i18n-en="RFID Badges &amp; Cards">Badges &amp; Cartes RFID</h4>
+                    <p
+                        data-i18n-en="Mifare, 125kHz and HID proximity cards. Instant access rights programming and revocation.">
+                        Cartes Mifare, 125 kHz et HID. Programmation et revocation instantanee des droits.</p>
                 </div>
                 <div class="feature-card reveal" data-delay="200">
                     <div class="feature-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
@@ -92,20 +100,22 @@
                             <path d="M7 11V7a5 5 0 0 1 10 0v4" />
                             <circle cx="12" cy="16" r="1" />
                         </svg></div>
-                    <h4>Portes & Tourniquets</h4>
-                    <p>Électroserrures, verrous électromagnétiques, tourniquets et portiques pour un contrôle physique
-                        des passages.</p>
+                    <h4 data-i18n-en="Doors &amp; Turnstiles">Portes &amp; Tourniquets</h4>
+                    <p
+                        data-i18n-en="Electric locks, electromagnetic bolts, turnstiles and access gates for physical passage control.">
+                        Electroserrures, verrous electromagnetiques, tourniquets et portiques.</p>
                 </div>
                 <div class="feature-card reveal" data-delay="0">
                     <div class="feature-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
                             stroke-width="1.5">
                             <rect x="2" y="3" width="20" height="14" rx="2" />
-                            <path d="M8 21h8M12 17v4" />
-                            <path d="M6 8h.01M10 8h8M6 12h12" />
+                            <path d="M8 21h8M12 17v4M6 8h.01M10 8h8M6 12h12" />
                         </svg></div>
-                    <h4>Logiciel de Gestion</h4>
-                    <p>Interface centralisée pour gérer les utilisateurs, planifier les horaires d'accès et consulter
-                        les historiques en temps réel.</p>
+                    <h4 data-i18n-en="Management Software">Logiciel de Gestion</h4>
+                    <p
+                        data-i18n-en="Centralized interface to manage users, schedule access hours and view real-time history.">
+                        Interface centralisee pour gerer les utilisateurs, planifier les acces et consulter les
+                        historiques.</p>
                 </div>
                 <div class="feature-card reveal" data-delay="100">
                     <div class="feature-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
@@ -113,73 +123,86 @@
                             <path d="M15 10a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
                             <path d="M19.5 10c0 7.142-7.5 11.25-7.5 11.25S4.5 17.142 4.5 10a7.5 7.5 0 1 1 15 0z" />
                         </svg></div>
-                    <h4>Interphone Vidéo</h4>
-                    <p>Portiers vidéo IP avec déverrouillage à distance depuis smartphone pour accueil et contrôle des
-                        visiteurs.</p>
+                    <h4 data-i18n-en="Video Intercom">Interphone Video</h4>
+                    <p
+                        data-i18n-en="IP video intercoms with remote unlock from smartphone for visitor reception and control.">
+                        Portiers video IP avec deverrouillage a distance depuis smartphone.</p>
                 </div>
                 <div class="feature-card reveal" data-delay="200">
                     <div class="feature-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
                             stroke-width="1.5">
                             <path d="M9 17H7A5 5 0 017 7h2M15 7h2a5 5 0 010 10h-2M8 12h8" />
                         </svg></div>
-                    <h4>Intégration CCTV & Alarme</h4>
-                    <p>Couplage avec les systèmes de vidéosurveillance et alarmes pour une sécurité globale et
-                        automatisée.</p>
+                    <h4 data-i18n-en="CCTV &amp; Alarm Integration">Integration CCTV &amp; Alarme</h4>
+                    <p
+                        data-i18n-en="Coupling with video surveillance and alarm systems for fully automated global security.">
+                        Couplage avec les systemes de videosurveillance et alarmes pour une securite globale
+                        automatisee.</p>
                 </div>
             </div>
 
             <div class="section-header reveal" style="margin-top:80px">
-                <span class="section-tag">Avantages</span>
-                <h2 class="section-title">Pourquoi choisir <span class="gradient-text">TNE</span> ?</h2>
+                <span class="section-tag" data-i18n-en="Benefits">Avantages</span>
+                <h2 class="section-title" data-i18n-en="Why choose <span class=&quot;gradient-text&quot;>TNE</span>?">
+                    Pourquoi choisir <span class="gradient-text">TNE</span> ?</h2>
             </div>
             <div class="benefits-grid">
                 <div class="benefit-item reveal">
                     <div class="benefit-num">01</div>
                     <div>
-                        <h5>Sécurité Renforcée</h5>
-                        <p>Éliminez les risques liés aux clés perdues ou volées. Contrôlez chaque accès avec des logs
-                            d'audit complets.</p>
+                        <h5 data-i18n-en="Enhanced Security">Securite Renforcee</h5>
+                        <p
+                            data-i18n-en="Eliminate risks from lost or stolen keys. Control every access with complete audit logs.">
+                            Eliminez les risques lies aux cles perdues ou volees. Controlez chaque acces avec audit
+                            complet.</p>
                     </div>
                 </div>
                 <div class="benefit-item reveal">
                     <div class="benefit-num">02</div>
                     <div>
-                        <h5>Gestion Flexible</h5>
-                        <p>Ajoutez, modifiez ou supprimez des droits d'accès à la volée depuis n'importe quel appareil
-                            connecté.</p>
+                        <h5 data-i18n-en="Flexible Management">Gestion Flexible</h5>
+                        <p data-i18n-en="Add, modify or remove access rights on the fly from any connected device.">
+                            Ajoutez, modifiez ou supprimez des droits a la volee depuis n importe quel appareil.</p>
                     </div>
                 </div>
                 <div class="benefit-item reveal">
                     <div class="benefit-num">03</div>
                     <div>
-                        <h5>Évolutivité</h5>
-                        <p>Systèmes scalables de 1 à 1000 portes, adaptés aux PME comme aux grandes entreprises.</p>
+                        <h5 data-i18n-en="Scalability">Evolutivite</h5>
+                        <p
+                            data-i18n-en="Scalable systems from 1 to 1000 doors, suited for SMEs and large enterprises alike.">
+                            Systemes de 1 a 1000 portes, adaptes aux PME comme aux grandes entreprises.</p>
                     </div>
                 </div>
                 <div class="benefit-item reveal">
                     <div class="benefit-num">04</div>
                     <div>
-                        <h5>Conformité & Audit</h5>
-                        <p>Historiques complets des passages pour répondre aux exigences légales et aux audits sécurité.
+                        <h5 data-i18n-en="Compliance &amp; Audit">Conformite &amp; Audit</h5>
+                        <p data-i18n-en="Complete passage history to meet legal requirements and security audits.">
+                            Historiques complets des passages pour repondre aux exigences legales et audits securite.
                         </p>
                     </div>
                 </div>
             </div>
 
             <div class="page-cta reveal">
-                <h3>Sécurisez vos accès <span class="gradient-text">dès aujourd'hui</span></h3>
-                <p>Nos techniciens évaluent vos besoins et installent votre système clé en main en quelques jours.</p>
-                <a href="../../index.html#contact" class="btn btn-primary">Obtenir un devis gratuit</a>
+                <h3 data-i18n-en="Secure your access <span class=&quot;gradient-text&quot;>today</span>">Securisez vos
+                    acces <span class="gradient-text">des aujourd hui</span></h3>
+                <p data-i18n-en="Our technicians assess your needs and install your turnkey system within days.">Nos
+                    techniciens evaluent vos besoins et installent votre systeme cle en main en quelques jours.</p>
+                <a href="../../index.html#contact" class="btn btn-primary" data-i18n-en="Get a free quote">Obtenir un
+                    devis gratuit</a>
             </div>
         </div>
     </section>
-
     <footer class="footer">
         <div class="container">
             <div class="footer-bottom" style="padding:28px 0">
-                <span>© 2024 TNE — Telecoms & Network Engineering. Tous droits réservés.</span>
-                <a href="../../index.html" class="btn btn-ghost" style="padding:8px 20px;font-size:.85rem">← Retour à
-                    l'accueil</a>
+                <span
+                    data-i18n-en="&copy; 2024 TNE &mdash; Telecoms &amp; Network Engineering. All rights reserved.">&copy;
+                    2024 TNE &mdash; Telecoms &amp; Network Engineering. Tous droits reserves.</span>
+                <a href="../../index.html" class="btn btn-ghost" style="padding:8px 20px;font-size:.85rem"
+                    data-i18n-en="&larr; Back to home">&larr; Retour a l'accueil</a>
             </div>
         </div>
     </footer>

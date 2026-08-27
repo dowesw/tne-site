@@ -1,198 +1,194 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="fr">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Pointeuses Biométriques — TNE</title>
-    <meta name="description"
-        content="Pointeuses biométriques empreinte digitale et carte RFID pour gestion des présences et du temps de travail — TNE Douala." />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link
-        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Outfit:wght@300;400;500;600;700&display=swap"
-        rel="stylesheet" />
-    <link rel="icon" href="../../images/favicon.png" type="image/png" />
-    <link rel="stylesheet" href="../../css/style.css" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pointeuses &amp; GTA — TNE</title>
+  <meta name="description"
+    content="Pointeuses biometriques, RFID et logiciels de gestion du temps et des activites — TNE Douala." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Outfit:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet" />
+  <link rel="icon" href="../../images/favicon.png" type="image/png" />
+  <script src="../../js/i18n.js"></script>
+  <link rel="stylesheet" href="../../css/style.css" />
 </head>
 
 <body>
-    <nav class="navbar scrolled" id="navbar">
-        <div class="nav-container">
-            <a href="../../index.html" class="nav-logo"><img src="../../images/logo.png" alt="TNE"
-                    class="logo-img" /></a>
-            <ul class="nav-links" id="navLinks">
-                <li><a href="../../index.html" class="nav-link">Accueil</a></li>
-                <li><a href="../../index.html#services" class="nav-link">Services</a></li>
-                <li><a href="../../index.html#produits" class="nav-link">Produits</a></li>
-                <li><a href="../../index.html#about" class="nav-link">À propos</a></li>
-                <li><a href="../../index.html#partenaires" class="nav-link">Partenaires</a></li>
-                <li><a href="../../index.html#contact" class="nav-link nav-cta">Contactez-nous</a></li>
-            </ul>
-            <button class="nav-toggle" id="navToggle" aria-label="Menu"><span></span><span></span><span></span></button>
-        </div>
-    </nav>
-
-    <div class="page-hero">
-        <div class="container">
-            <div class="breadcrumb">
-                <a href="../../index.html">Accueil</a><span>›</span>
-                <a href="../../index.html#produits">Produits</a><span>›</span>
-                <span>Pointeuses Biométriques</span>
-            </div>
-            <div class="page-hero-inner">
-                <div class="page-hero-icon">
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
-                        <path
-                            d="M12 11c0 3.517-1.009 6.799-2.753 9.571m-3.44-2.04.054-.09A13.916 13.916 0 008 11a4 4 0 118 0c0 1.017-.07 2.019-.203 3m-2.118 6.844A21.88 21.88 0 0015.171 17m3.839 1.132c.645-2.266.99-4.659.99-7.132A8 8 0 008 4.07M3 15.364c.64-1.319 1-2.8 1-4.364 0-1.457.39-2.823 1.07-4" />
-                    </svg>
-                </div>
-                <div class="page-hero-text reveal">
-                    <span class="section-tag">Produit</span>
-                    <h1>Pointeuses <span class="gradient-text">Biométriques</span></h1>
-                    <p>Systèmes de gestion des présences et du temps de travail par empreinte digitale, reconnaissance
-                        faciale ou carte RFID, avec logiciel de reporting intégré.</p>
-                </div>
-            </div>
-        </div>
+  <nav class="navbar scrolled" id="navbar">
+    <div class="nav-container">
+      <a href="../../index.html" class="nav-logo"><img src="../../images/logo.png" alt="TNE" class="logo-img" /></a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="../../index.html" class="nav-link" data-i18n-en="Home">Accueil</a></li>
+        <li><a href="../../index.html#services" class="nav-link" data-i18n-en="Services">Services</a></li>
+        <li><a href="../../index.html#produits" class="nav-link" data-i18n-en="Products">Produits</a></li>
+        <li><a href="../../index.html#about" class="nav-link" data-i18n-en="About">A propos</a></li>
+        <li><a href="../../index.html#partenaires" class="nav-link" data-i18n-en="Partners">Partenaires</a></li>
+        <li><a href="../../index.html#contact" class="nav-link nav-cta" data-i18n-en="Contact Us">Contactez-nous</a>
+        </li>
+      </ul>
+      <div class="lang-toggle"><button class="lang-btn active" data-lang="fr">FR</button><button class="lang-btn"
+          data-lang="en">EN</button></div>
+      <button class="nav-toggle" id="navToggle" aria-label="Menu"><span></span><span></span><span></span></button>
     </div>
-
-    <section class="section">
-        <div class="container">
-            <div class="section-header reveal">
-                <span class="section-tag">Nos solutions</span>
-                <h2 class="section-title">Contrôlez vos <span class="gradient-text">présences</span></h2>
-                <p class="section-desc">ZKTeco, Suprema, Virdi — des marques reconnues pour leur fiabilité et leur
-                    précision.</p>
-            </div>
-            <div class="features-grid">
-                <div class="feature-card reveal" data-delay="0">
-                    <div class="feature-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                            stroke-width="1.5">
-                            <path d="M12 11c0 3.517-1.009 6.799-2.753 9.571" />
-                            <path d="M8 11a4 4 0 118 0" />
-                        </svg></div>
-                    <h4>Empreinte Digitale</h4>
-                    <p>Identification rapide (< 1 sec) par empreinte. Stockage de 1000 à 10 000 gabarits. Taux d'erreur
-                            inférieur à 0,001%.</p>
-                </div>
-                <div class="feature-card reveal" data-delay="100">
-                    <div class="feature-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                            stroke-width="1.5">
-                            <circle cx="12" cy="8" r="4" />
-                            <path d="M6 20v-2a6 6 0 0 1 12 0v2" />
-                        </svg></div>
-                    <h4>Reconnaissance Faciale</h4>
-                    <p>Identification sans contact avec algorithme IA anti-fraude. Parfait pour milieux hygiéniques et
-                        forts passages.</p>
-                </div>
-                <div class="feature-card reveal" data-delay="200">
-                    <div class="feature-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                            stroke-width="1.5">
-                            <rect x="3" y="11" width="18" height="11" rx="2" />
-                            <path d="M7 11V7a5 5 0 0 1 10 0v4" />
-                        </svg></div>
-                    <h4>Carte RFID / Badge</h4>
-                    <p>Pointage par badge Mifare ou HID. Solution économique pour entreprises avec turnover élevé.</p>
-                </div>
-                <div class="feature-card reveal" data-delay="0">
-                    <div class="feature-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                            stroke-width="1.5">
-                            <rect x="3" y="4" width="18" height="18" rx="2" />
-                            <path d="M16 2v4M8 2v4M3 10h18" />
-                        </svg></div>
-                    <h4>Logiciel de Gestion RH</h4>
-                    <p>Plannings, calcul automatique des heures, reports d'absence, exports Excel/PDF compatibles avec
-                        vos logiciels de paie.</p>
-                </div>
-                <div class="feature-card reveal" data-delay="100">
-                    <div class="feature-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                            stroke-width="1.5">
-                            <circle cx="12" cy="12" r="10" />
-                            <path
-                                d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z" />
-                        </svg></div>
-                    <h4>Accès Cloud & Mobile</h4>
-                    <p>Consultation des présences en temps réel depuis un navigateur ou application mobile. Alertes
-                        retards automatiques.</p>
-                </div>
-                <div class="feature-card reveal" data-delay="200">
-                    <div class="feature-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                            stroke-width="1.5">
-                            <path d="M9 17H7A5 5 0 017 7h2M15 7h2a5 5 0 010 10h-2M8 12h8" />
-                        </svg></div>
-                    <h4>Multi-sites & Intégration</h4>
-                    <p>Gestion centralisée de plusieurs sites avec synchronisation en temps réel. API pour intégration
-                        ERP/SIRH.</p>
-                </div>
-            </div>
-
-            <div class="section-header reveal" style="margin-top:80px">
-                <span class="section-tag">Spécifications</span>
-                <h2 class="section-title">Comparatif <span class="gradient-text">ZKTeco</span></h2>
-            </div>
-            <div style="overflow-x:auto">
-                <table class="specs-table reveal">
-                    <thead>
-                        <tr>
-                            <th>Modèle</th>
-                            <th>ZKTeco F18</th>
-                            <th>ZKTeco SpeedFace V4L</th>
-                            <th>ZKTeco ProFace X</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>Identification</td>
-                            <td>Empreinte + RFID</td>
-                            <td>Visage + Empreinte</td>
-                            <td>Visage + Empreinte + RFID</td>
-                        </tr>
-                        <tr>
-                            <td>Capacité utilisateurs</td>
-                            <td>3 000</td>
-                            <td>10 000</td>
-                            <td>50 000</td>
-                        </tr>
-                        <tr>
-                            <td>Écran</td>
-                            <td>TFT 2.8"</td>
-                            <td>Couleur 5"</td>
-                            <td>IPS tactile 7"</td>
-                        </tr>
-                        <tr>
-                            <td>Connectivité</td>
-                            <td>TCP/IP, USB</td>
-                            <td>TCP/IP, WiFi</td>
-                            <td>TCP/IP, WiFi, 4G</td>
-                        </tr>
-                        <tr>
-                            <td>Contrôle d'accès</td>
-                            <td>Option</td>
-                            <td>Oui</td>
-                            <td>Oui</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-
-            <div class="page-cta reveal">
-                <h3>Optimisez la gestion de vos <span class="gradient-text">présences</span></h3>
-                <p>Démo sur site gratuite. Installation et formation du personnel à la prise en main incluses.</p>
-                <a href="../../index.html#contact" class="btn btn-primary">Demander une démonstration</a>
-            </div>
+  </nav>
+  <div class="page-hero">
+    <div class="container">
+      <div class="breadcrumb"><a href="../../index.html" data-i18n-en="Home">Accueil</a><span>&rsaquo;</span><a
+          href="../../index.html#produits" data-i18n-en="Products">Produits</a><span>&rsaquo;</span><span
+          data-i18n-en="Time Clocks &amp; TMS">Pointeuses &amp; GTA</span></div>
+      <div class="page-hero-inner">
+        <div class="page-hero-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+            <circle cx="12" cy="12" r="10" />
+            <polyline points="12 6 12 12 16 14" />
+          </svg></div>
+        <div class="page-hero-text reveal">
+          <span class="section-tag" data-i18n-en="Product">Produit</span>
+          <h1 data-i18n-en="Time Clocks &amp; <span class=&quot;gradient-text&quot;>TMS</span>">Pointeuses &amp; <span
+              class="gradient-text">GTA</span></h1>
+          <p
+            data-i18n-en="Biometric and RFID time attendance terminals with time and attendance management software. Payroll-ready reports, automatically.">
+            Terminaux de pointage biometriques et RFID avec logiciel de gestion du temps et des activites. Rapports
+            prets pour la paie, automatiquement.</p>
         </div>
-    </section>
-
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-bottom" style="padding:28px 0">
-                <span>© 2024 TNE — Telecoms &amp; Network Engineering. Tous droits réservés.</span>
-                <a href="../../index.html" class="btn btn-ghost" style="padding:8px 20px;font-size:.85rem">← Retour à
-                    l'accueil</a>
-            </div>
+      </div>
+    </div>
+  </div>
+  <section class="section">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag" data-i18n-en="Our range">Notre gamme</span>
+        <h2 class="section-title"
+          data-i18n-en="Track attendance <span class=&quot;gradient-text&quot;>precisely</span>">Gerer les presences
+          <span class="gradient-text">precisement</span></h2>
+        <p class="section-desc"
+          data-i18n-en="ZKTeco, Hikvision, Anviz — market leaders in Africa for time attendance solutions.">ZKTeco,
+          Hikvision, Anviz — leaders du marche en Afrique pour les solutions de controle de presences.</p>
+      </div>
+      <div class="features-grid">
+        <div class="feature-card reveal" data-delay="0">
+          <div class="feature-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <path
+                d="M12 11c0 3.517-1.009 6.799-2.753 9.571m-3.44-2.04.054-.09A13.916 13.916 0 008 11a4 4 0 118 0c0 1.017-.07 2.019-.203 3m-2.118 6.844A21.88 21.88 0 0015.171 17m3.839 1.132c.645-2.266.99-4.659.99-7.132A8 8 0 008 4.07M3 15.364c.64-1.319 1-2.8 1-4.364 0-1.457.39-2.823 1.07-4" />
+            </svg></div>
+          <h4 data-i18n-en="Biometric Terminals">Terminals Biometriques</h4>
+          <p
+            data-i18n-en="ZKTeco F22, Hikvision DS-K1T671: fingerprint, face and card. 3,000 to 50,000 users. PoE and WiFi.">
+            ZKTeco F22, Hikvision DS-K1T671 : empreinte, visage et carte. 3 000 a 50 000 utilisateurs. PoE et WiFi.</p>
         </div>
-    </footer>
-    <script src="../../js/main.js"></script>
+        <div class="feature-card reveal" data-delay="100">
+          <div class="feature-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <path d="M20 7H4a2 2 0 00-2 2v6a2 2 0 002 2h16a2 2 0 002-2V9a2 2 0 00-2-2z" />
+              <path d="M16 11h.01M12 11h.01M8 11h.01" />
+            </svg></div>
+          <h4 data-i18n-en="RFID Badge Terminals">Terminaux Badges RFID</h4>
+          <p
+            data-i18n-en="Mifare and HID card readers, pin code or multi-mode. Plug &amp; play installation. IP65 waterproof.">
+            Lecteurs cartes Mifare et HID, code PIN ou multi-mode. Installation plug &amp; play. Etanche IP65.</p>
+        </div>
+        <div class="feature-card reveal" data-delay="200">
+          <div class="feature-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <rect x="5" y="2" width="14" height="20" rx="2" />
+              <path d="M12 18h.01M8 6h8M8 10h8M8 14h4" />
+            </svg></div>
+          <h4 data-i18n-en="Mobile App Clocking">Pointage via Application</h4>
+          <p data-i18n-en="GPS-geolocated clock-in for field staff. Anti-spoofing detection and offline mode.">Pointage
+            geolocalise GPS pour le personnel terrain. Detection anti-usurpation et mode hors-ligne.</p>
+        </div>
+        <div class="feature-card reveal" data-delay="0">
+          <div class="feature-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <rect x="2" y="3" width="20" height="14" rx="2" />
+              <path d="M8 21h8M12 17v4M6 8h.01M10 8h8M6 12h12" />
+            </svg></div>
+          <h4 data-i18n-en="TMS Software">Logiciel GTA</h4>
+          <p
+            data-i18n-en="ZKTime, BIOTIME: presence dashboard, work schedules, leave management, payroll-ready export.">
+            ZKTime, BIOTIME : tableau de bord des presences, horaires de travail, conges, export paie.</p>
+        </div>
+        <div class="feature-card reveal" data-delay="100">
+          <div class="feature-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <path d="M22 12h-4l-3 9L9 3l-3 9H2" />
+            </svg></div>
+          <h4 data-i18n-en="Reports &amp; Analytics">Rapports &amp; Analytique</h4>
+          <p
+            data-i18n-en="Automatic daily, weekly and monthly attendance reports. Lateness, overtime and absence stats.">
+            Rapports de presence quotidiens, hebdomadaires et mensuels automatiques. Retards, heures sup et absences.
+          </p>
+        </div>
+        <div class="feature-card reveal" data-delay="200">
+          <div class="feature-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <rect x="2" y="7" width="20" height="14" rx="2" />
+              <path d="M16 7V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2M12 12v5M10 14h4" />
+            </svg></div>
+          <h4 data-i18n-en="HR System Integration">Integration RH/Paie</h4>
+          <p data-i18n-en="Compatible with Sage, CEGID, Paychex and Excel. Automatic payroll data generation.">
+            Compatible Sage, CEGID, Paychex et Excel. Generation automatique des donnees de paie.</p>
+        </div>
+      </div>
+
+      <div class="section-header reveal" style="margin-top:80px">
+        <span class="section-tag" data-i18n-en="Benefits">Avantages</span>
+        <h2 class="section-title" data-i18n-en="Why choose <span class=&quot;gradient-text&quot;>TNE</span>?">Pourquoi
+          choisir <span class="gradient-text">TNE</span> ?</h2>
+      </div>
+      <div class="benefits-grid">
+        <div class="benefit-item reveal">
+          <div class="benefit-num">01</div>
+          <div>
+            <h5 data-i18n-en="Payroll Accuracy">Paie Exacte</h5>
+            <p data-i18n-en="Eliminate payroll errors by automating hours collection. ROI in 3 to 6 months.">Eliminez
+              les erreurs de paie en automatisant la collecte des heures. ROI en 3 a 6 mois.</p>
+          </div>
+        </div>
+        <div class="benefit-item reveal">
+          <div class="benefit-num">02</div>
+          <div>
+            <h5 data-i18n-en="Fraud Prevention">Zero Fraude</h5>
+            <p data-i18n-en="Biometrics eliminate buddy punching. Each clocking is indisputably attributed.">La
+              biometrie elimine les pointages de complaisance. Chaque pointage est indiscutablement attribue.</p>
+          </div>
+        </div>
+        <div class="benefit-item reveal">
+          <div class="benefit-num">03</div>
+          <div>
+            <h5 data-i18n-en="Multi-Site Management">Gestion Multi-Sites</h5>
+            <p data-i18n-en="Centralize attendance data from all your sites in a single cloud dashboard.">Centralisez
+              les donnees de tous vos sites dans un seul tableau de bord cloud.</p>
+          </div>
+        </div>
+        <div class="benefit-item reveal">
+          <div class="benefit-num">04</div>
+          <div>
+            <h5 data-i18n-en="Labor Law Compliance">Conformite Droit du Travail</h5>
+            <p data-i18n-en="Audit trails and archiving compliant with Cameroonian and international labor law.">Pistes
+              d audit et archivage conformes au droit du travail camerounais et international.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="page-cta reveal">
+        <h3 data-i18n-en="Automate your <span class=&quot;gradient-text&quot;>attendance management</span>">Automatisez
+          votre <span class="gradient-text">gestion des presences</span></h3>
+        <p data-i18n-en="Free demo on your premises. Installation in 1 day. Training included for HR teams.">
+          Demonstration gratuite sur site. Installation en 1 journee. Formation incluse pour les equipes RH.</p>
+        <a href="../../index.html#contact" class="btn btn-primary" data-i18n-en="Request a demo">Demander une
+          demonstration</a>
+      </div>
+    </div>
+  </section>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-bottom" style="padding:28px 0">
+        <span data-i18n-en="&copy; 2024 TNE &mdash; All rights reserved.">&copy; 2024 TNE &mdash; Telecoms &amp; Network
+          Engineering. Tous droits reserves.</span>
+        <a href="../../index.html" class="btn btn-ghost" style="padding:8px 20px;font-size:.85rem"
+          data-i18n-en="&larr; Back to home">&larr; Retour a l'accueil</a>
+      </div>
+    </div>
+  </footer>
+  <script src="../../js/main.js"></script>
 </body>
 
 </html>

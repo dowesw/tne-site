@@ -1,191 +1,195 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="fr">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vidéo Surveillance — TNE</title>
-    <meta name="description"
-        content="Solutions de vidéosurveillance CCTV, caméras IP haute définition, NVR/DVR et monitoring cloud par TNE à Douala, Cameroun." />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link
-        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Outfit:wght@300;400;500;600;700&display=swap"
-        rel="stylesheet" />
-    <link rel="icon" href="../../images/favicon.png" type="image/png" />
-    <link rel="stylesheet" href="../../css/style.css" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Video Surveillance — TNE</title>
+  <meta name="description" content="HD CCTV systems, IP cameras and centralized management — TNE Douala." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Outfit:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet" />
+  <link rel="icon" href="../../images/favicon.png" type="image/png" />
+  <script src="../../js/i18n.js"></script>
+  <link rel="stylesheet" href="../../css/style.css" />
 </head>
 
 <body>
-    <nav class="navbar scrolled" id="navbar">
-        <div class="nav-container">
-            <a href="../../index.html" class="nav-logo"><img src="../../images/logo.png" alt="TNE"
-                    class="logo-img" /></a>
-            <ul class="nav-links" id="navLinks">
-                <li><a href="../../index.html" class="nav-link">Accueil</a></li>
-                <li><a href="../../index.html#services" class="nav-link">Services</a></li>
-                <li><a href="../../index.html#produits" class="nav-link">Produits</a></li>
-                <li><a href="../../index.html#about" class="nav-link">À propos</a></li>
-                <li><a href="../../index.html#partenaires" class="nav-link">Partenaires</a></li>
-                <li><a href="../../index.html#contact" class="nav-link nav-cta">Contactez-nous</a></li>
-            </ul>
-            <button class="nav-toggle" id="navToggle" aria-label="Menu"><span></span><span></span><span></span></button>
-        </div>
-    </nav>
-
-    <div class="page-hero">
-        <div class="container">
-            <div class="breadcrumb">
-                <a href="../../index.html">Accueil</a><span>›</span>
-                <a href="../../index.html#services">Services</a><span>›</span>
-                <span>Vidéo Surveillance</span>
-            </div>
-            <div class="page-hero-inner">
-                <div class="page-hero-icon">
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
-                        <path d="M15 10a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
-                        <path d="M19.5 10c0 7.142-7.5 11.25-7.5 11.25S4.5 17.142 4.5 10a7.5 7.5 0 1 1 15 0z" />
-                    </svg>
-                </div>
-                <div class="page-hero-text reveal">
-                    <span class="section-tag">Sécurité</span>
-                    <h1>Vidéo <span class="gradient-text">Surveillance</span></h1>
-                    <p>Des systèmes CCTV intelligents et haute définition pour surveiller, protéger et contrôler vos
-                        sites en temps réel, où que vous soyez.</p>
-                </div>
-            </div>
-        </div>
+  <nav class="navbar scrolled" id="navbar">
+    <div class="nav-container">
+      <a href="../../index.html" class="nav-logo"><img src="../../images/logo.png" alt="TNE" class="logo-img" /></a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="../../index.html" class="nav-link" data-i18n-en="Home">Accueil</a></li>
+        <li><a href="../../index.html#services" class="nav-link" data-i18n-en="Services">Services</a></li>
+        <li><a href="../../index.html#produits" class="nav-link" data-i18n-en="Products">Produits</a></li>
+        <li><a href="../../index.html#about" class="nav-link" data-i18n-en="About">A propos</a></li>
+        <li><a href="../../index.html#partenaires" class="nav-link" data-i18n-en="Partners">Partenaires</a></li>
+        <li><a href="../../index.html#contact" class="nav-link nav-cta" data-i18n-en="Contact Us">Contactez-nous</a>
+        </li>
+      </ul>
+      <div class="lang-toggle"><button class="lang-btn active" data-lang="fr">FR</button><button class="lang-btn"
+          data-lang="en">EN</button></div>
+      <button class="nav-toggle" id="navToggle" aria-label="Menu"><span></span><span></span><span></span></button>
     </div>
+  </nav>
 
-    <section class="section">
-        <div class="container">
-            <div class="section-header reveal">
-                <span class="section-tag">Nos solutions</span>
-                <h2 class="section-title">Ce que nous <span class="gradient-text">proposons</span></h2>
-                <p class="section-desc">Une gamme complète de solutions de vidéosurveillance adaptées à tous types de
-                    sites.</p>
-            </div>
-            <div class="features-grid">
-                <div class="feature-card reveal" data-delay="0">
-                    <div class="feature-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                            stroke-width="1.5">
-                            <circle cx="12" cy="12" r="3" />
-                            <path
-                                d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42" />
-                        </svg></div>
-                    <h4>Caméras IP HD / 4K</h4>
-                    <p>Caméras dôme, bullet, PTZ et fisheye avec résolution jusqu'à 4K, vision nocturne et détection de
-                        mouvement intelligente.</p>
-                </div>
-                <div class="feature-card reveal" data-delay="100">
-                    <div class="feature-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                            stroke-width="1.5">
-                            <rect x="2" y="3" width="20" height="14" rx="2" />
-                            <path d="M8 21h8M12 17v4" />
-                        </svg></div>
-                    <h4>NVR / DVR Centralisé</h4>
-                    <p>Enregistreurs réseau et numériques de 4 à 128 canaux pour un stockage sécurisé et une gestion
-                        centralisée des flux vidéo.</p>
-                </div>
-                <div class="feature-card reveal" data-delay="200">
-                    <div class="feature-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                            stroke-width="1.5">
-                            <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
-                            <circle cx="9" cy="7" r="4" />
-                            <path d="M23 21v-2a4 4 0 0 0-3-3.87" />
-                            <path d="M16 3.13a4 4 0 0 1 0 7.75" />
-                        </svg></div>
-                    <h4>Monitoring à Distance</h4>
-                    <p>Accès en temps réel à vos caméras depuis un smartphone ou PC. Alertes push lors de détection
-                        d'intrusion.</p>
-                </div>
-                <div class="feature-card reveal" data-delay="0">
-                    <div class="feature-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                            stroke-width="1.5">
-                            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
-                        </svg></div>
-                    <h4>Analyse Vidéo Intelligente</h4>
-                    <p>Reconnaissance faciale, détection de périmètre, comptage de personnes et alertes comportementales
-                        automatisées.</p>
-                </div>
-                <div class="feature-card reveal" data-delay="100">
-                    <div class="feature-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                            stroke-width="1.5">
-                            <ellipse cx="12" cy="5" rx="9" ry="3" />
-                            <path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3" />
-                            <path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5" />
-                        </svg></div>
-                    <h4>Stockage Cloud & Local</h4>
-                    <p>Options de stockage hybride : NAS local sécurisé et archivage cloud chiffré avec rétention
-                        configurable.</p>
-                </div>
-                <div class="feature-card reveal" data-delay="200">
-                    <div class="feature-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                            stroke-width="1.5">
-                            <path
-                                d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z" />
-                        </svg></div>
-                    <h4>Installation & Maintenance</h4>
-                    <p>Pose des câblages, paramétrage complet du système et contrats de maintenance préventive et
-                        corrective.</p>
-                </div>
-            </div>
-
-            <div class="section-header reveal" style="margin-top:80px">
-                <span class="section-tag">Cas d'usage</span>
-                <h2 class="section-title">Secteurs <span class="gradient-text">concernés</span></h2>
-            </div>
-            <div class="benefits-grid">
-                <div class="benefit-item reveal">
-                    <div class="benefit-num">01</div>
-                    <div>
-                        <h5>Entreprises & Bureaux</h5>
-                        <p>Sécurisez vos locaux, contrôlez les accès et dissuadez les intrusions avec un système de
-                            surveillance discret et efficace.</p>
-                    </div>
-                </div>
-                <div class="benefit-item reveal">
-                    <div class="benefit-num">02</div>
-                    <div>
-                        <h5>Sites Industriels</h5>
-                        <p>Surveillance des zones dangereuses, détection d'anomalies en production et protection du
-                            matériel.</p>
-                    </div>
-                </div>
-                <div class="benefit-item reveal">
-                    <div class="benefit-num">03</div>
-                    <div>
-                        <h5>Commerces & Retail</h5>
-                        <p>Prévention des vols, analyse du comportement client et sécurisation des caisses.</p>
-                    </div>
-                </div>
-                <div class="benefit-item reveal">
-                    <div class="benefit-num">04</div>
-                    <div>
-                        <h5>Bâtiments Résidentiels</h5>
-                        <p>Résidences sécurisées, copropriétés et villas avec interphone vidéo et accès à distance.</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="page-cta reveal">
-                <h3>Besoin d'un devis <span class="gradient-text">vidéosurveillance</span> ?</h3>
-                <p>Nos experts réalisent une étude gratuite de votre site et vous proposent la solution adaptée à votre
-                    budget.</p>
-                <a href="../../index.html#contact" class="btn btn-primary">Demander un devis gratuit</a>
-            </div>
+  <div class="page-hero">
+    <div class="container">
+      <div class="breadcrumb">
+        <a href="../../index.html" data-i18n-en="Home">Accueil</a><span>&rsaquo;</span>
+        <a href="../../index.html#services" data-i18n-en="Services">Services</a><span>&rsaquo;</span>
+        <span data-i18n-en="Video Surveillance">Video Surveillance</span>
+      </div>
+      <div class="page-hero-inner">
+        <div class="page-hero-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+            <path d="M15 10a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
+            <path d="M19.5 10c0 7.142-7.5 11.25-7.5 11.25S4.5 17.142 4.5 10a7.5 7.5 0 1 1 15 0z" />
+          </svg></div>
+        <div class="page-hero-text reveal">
+          <span class="section-tag" data-i18n-en="Service">Service</span>
+          <h1 data-i18n-en="Video <span class=&quot;gradient-text&quot;>Surveillance</span>">Video <span
+              class="gradient-text">Surveillance</span></h1>
+          <p
+            data-i18n-en="HD CCTV systems, IP cameras, cloud recording and centralized management to secure your sites 24/7.">
+            Systemes CCTV haute definition, cameras IP, enregistrement cloud et gestion centralisee pour securiser vos
+            sites 24h/24.</p>
         </div>
-    </section>
+      </div>
+    </div>
+  </div>
 
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-bottom" style="padding:28px 0">
-                <span>© 2024 TNE — Telecoms & Network Engineering. Tous droits réservés.</span>
-                <a href="../../index.html" class="btn btn-ghost" style="padding:8px 20px;font-size:.85rem">← Retour à
-                    l'accueil</a>
-            </div>
+  <section class="section">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag" data-i18n-en="Our solutions">Nos solutions</span>
+        <h2 class="section-title" data-i18n-en="Secure your <span class=&quot;gradient-text&quot;>perimeter</span>">
+          Securisez votre <span class="gradient-text">perimetre</span></h2>
+        <p class="section-desc"
+          data-i18n-en="Hikvision, Dahua, Axis — professional-grade cameras for every environment.">Hikvision, Dahua,
+          Axis — des cameras de niveau professionnel pour chaque environnement.</p>
+      </div>
+      <div class="features-grid">
+        <div class="feature-card reveal" data-delay="0">
+          <div class="feature-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <circle cx="12" cy="12" r="3" />
+              <path
+                d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42" />
+            </svg></div>
+          <h4 data-i18n-en="IP Cameras">Cameras IP</h4>
+          <p data-i18n-en="2MP to 8MP, PoE powered, day/night, remote access via smartphone.">Resolution 2MP a 8MP,
+            alimentation PoE, jour/nuit, acces a distance via smartphone.</p>
         </div>
-    </footer>
-    <script src="../../js/main.js"></script>
+        <div class="feature-card reveal" data-delay="100">
+          <div class="feature-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <rect x="2" y="2" width="20" height="8" rx="2" />
+              <rect x="2" y="14" width="20" height="8" rx="2" />
+              <line x1="6" y1="6" x2="6.01" y2="6" />
+              <line x1="6" y1="18" x2="6.01" y2="18" />
+            </svg></div>
+          <h4 data-i18n-en="NVR / DVR Recording">Enregistreurs NVR/DVR</h4>
+          <p data-i18n-en="Continuous or motion-triggered recording. 1 to 64 channels. Local or cloud storage.">
+            Enregistrement continu ou sur detection. 1 a 64 canaux. Stockage local ou cloud.</p>
+        </div>
+        <div class="feature-card reveal" data-delay="200">
+          <div class="feature-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <path d="M1 6l11 7L23 6" />
+              <rect x="1" y="4" width="22" height="16" rx="2" />
+            </svg></div>
+          <h4 data-i18n-en="PTZ Cameras">Cameras PTZ</h4>
+          <p data-i18n-en="360 pan/tilt/zoom, automated patrol, license plate and face recognition.">Rotation 360,
+            patrouille automatisee, reconnaissance de plaques et faciale.</p>
+        </div>
+        <div class="feature-card reveal" data-delay="0">
+          <div class="feature-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <circle cx="12" cy="12" r="10" />
+              <path
+                d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z" />
+            </svg></div>
+          <h4 data-i18n-en="Remote Monitoring">Telesurveillance</h4>
+          <p data-i18n-en="Real-time alerts and live viewing from any connected device worldwide.">Alertes en temps reel
+            et visualisation en direct depuis n'importe quel appareil connecte.</p>
+        </div>
+        <div class="feature-card reveal" data-delay="100">
+          <div class="feature-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+            </svg></div>
+          <h4 data-i18n-en="Thermal Cameras">Cameras Thermiques</h4>
+          <p data-i18n-en="Detection in complete darkness for industrial and sensitive sites.">Detection en obscurite
+            totale pour sites industriels et sensibles.</p>
+        </div>
+        <div class="feature-card reveal" data-delay="200">
+          <div class="feature-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <rect x="3" y="3" width="18" height="18" rx="2" />
+              <path d="M3 9h18M9 21V9" />
+            </svg></div>
+          <h4 data-i18n-en="Video Wall &amp; Control Room">Mur Video &amp; Salle de Controle</h4>
+          <p data-i18n-en="Multi-screen display stations and centralized event management.">Postes d'affichage
+            multi-ecrans et gestion centralisee des evenements.</p>
+        </div>
+      </div>
+
+      <div class="section-header reveal" style="margin-top:80px">
+        <span class="section-tag" data-i18n-en="Benefits">Avantages</span>
+        <h2 class="section-title" data-i18n-en="Why choose <span class=&quot;gradient-text&quot;>TNE</span>?">Pourquoi
+          choisir <span class="gradient-text">TNE</span> ?</h2>
+      </div>
+      <div class="benefits-grid">
+        <div class="benefit-item reveal">
+          <div class="benefit-num">01</div>
+          <div>
+            <h5 data-i18n-en="Criminal Deterrence">Dissuasion Criminelle</h5>
+            <p data-i18n-en="Cameras reduce intrusion attempts by 60% on average.">Les cameras reduisent les tentatives
+              d'intrusion de 60% en moyenne.</p>
+          </div>
+        </div>
+        <div class="benefit-item reveal">
+          <div class="benefit-num">02</div>
+          <div>
+            <h5 data-i18n-en="Legal Evidence">Preuve Legale</h5>
+            <p data-i18n-en="HD footage admissible in court.">Enregistrements HD recevables en justice.</p>
+          </div>
+        </div>
+        <div class="benefit-item reveal">
+          <div class="benefit-num">03</div>
+          <div>
+            <h5 data-i18n-en="Insurance Savings">Reduction des Assurances</h5>
+            <p data-i18n-en="A certified CCTV system can cut your insurance premiums by up to 30%.">Un systeme CCTV
+              certifie reduit les primes d'assurance jusqu'a 30%.</p>
+          </div>
+        </div>
+        <div class="benefit-item reveal">
+          <div class="benefit-num">04</div>
+          <div>
+            <h5 data-i18n-en="Remote Management">Gestion a Distance</h5>
+            <p data-i18n-en="Monitor all your sites from a single interface anywhere in the world.">Surveillez tous vos
+              sites depuis une interface unique, ou que vous soyez.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="page-cta reveal">
+        <h3 data-i18n-en="Secure your sites <span class=&quot;gradient-text&quot;>today</span>">Securisez vos sites
+          <span class="gradient-text">des aujourd'hui</span></h3>
+        <p data-i18n-en="Free site audit. Installation within 72 hours. 2-year warranty on all equipment.">Audit de site
+          gratuit. Installation sous 72h. Garantie 2 ans sur tout le materiel.</p>
+        <a href="../../index.html#contact" class="btn btn-primary" data-i18n-en="Get a free quote">Obtenir un devis
+          gratuit</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-bottom" style="padding:28px 0">
+        <span data-i18n-en="&copy; 2024 TNE &mdash; Telecoms &amp; Network Engineering. All rights reserved.">&copy;
+          2024 TNE &mdash; Telecoms &amp; Network Engineering. Tous droits reserves.</span>
+        <a href="../../index.html" class="btn btn-ghost" style="padding:8px 20px;font-size:.85rem"
+          data-i18n-en="&larr; Back to home">&larr; Retour a l'accueil</a>
+      </div>
+    </div>
+  </footer>
+  <script src="../../js/main.js"></script>
 </body>
 
 </html>

@@ -1,202 +1,147 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="fr">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Switch & Routeurs — TNE</title>
-    <meta name="description"
-        content="Switch managés et non-managés, routeurs PoE et équipements réseau professionnels — TNE Douala, Cameroun." />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link
-        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Outfit:wght@300;400;500;600;700&display=swap"
-        rel="stylesheet" />
-    <link rel="icon" href="../../images/favicon.png" type="image/png" />
-    <link rel="stylesheet" href="../../css/style.css" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Switchs &amp; Routeurs — TNE</title>
+  <meta name="description" content="Switchs manageable Cisco, HP, Ubiquiti et routeurs professionnels — TNE Douala." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Outfit:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet" />
+  <link rel="icon" href="../../images/favicon.png" type="image/png" />
+  <script src="../../js/i18n.js"></script>
+  <link rel="stylesheet" href="../../css/style.css" />
 </head>
 
 <body>
-    <nav class="navbar scrolled" id="navbar">
-        <div class="nav-container">
-            <a href="../../index.html" class="nav-logo"><img src="../../images/logo.png" alt="TNE"
-                    class="logo-img" /></a>
-            <ul class="nav-links" id="navLinks">
-                <li><a href="../../index.html" class="nav-link">Accueil</a></li>
-                <li><a href="../../index.html#services" class="nav-link">Services</a></li>
-                <li><a href="../../index.html#produits" class="nav-link">Produits</a></li>
-                <li><a href="../../index.html#about" class="nav-link">À propos</a></li>
-                <li><a href="../../index.html#partenaires" class="nav-link">Partenaires</a></li>
-                <li><a href="../../index.html#contact" class="nav-link nav-cta">Contactez-nous</a></li>
-            </ul>
-            <button class="nav-toggle" id="navToggle" aria-label="Menu"><span></span><span></span><span></span></button>
-        </div>
-    </nav>
-
-    <div class="page-hero">
-        <div class="container">
-            <div class="breadcrumb">
-                <a href="../../index.html">Accueil</a><span>›</span>
-                <a href="../../index.html#produits">Produits</a><span>›</span>
-                <span>Switch / Routeur</span>
-            </div>
-            <div class="page-hero-inner">
-                <div class="page-hero-icon">
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
-                        <rect x="2" y="2" width="20" height="8" rx="2" />
-                        <rect x="2" y="14" width="20" height="8" rx="2" />
-                        <line x1="6" y1="6" x2="6.01" y2="6" />
-                        <line x1="6" y1="18" x2="6.01" y2="18" />
-                    </svg>
-                </div>
-                <div class="page-hero-text reveal">
-                    <span class="section-tag">Produit</span>
-                    <h1>Switch & <span class="gradient-text">Routeurs</span></h1>
-                    <p>Équipements réseau actifs de niveau professionnel pour construire des infrastructures LAN/WAN
-                        rapides, sécurisées et évolutives.</p>
-                </div>
-            </div>
-        </div>
+  <nav class="navbar scrolled" id="navbar">
+    <div class="nav-container">
+      <a href="../../index.html" class="nav-logo"><img src="../../images/logo.png" alt="TNE" class="logo-img" /></a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="../../index.html" class="nav-link" data-i18n-en="Home">Accueil</a></li>
+        <li><a href="../../index.html#services" class="nav-link" data-i18n-en="Services">Services</a></li>
+        <li><a href="../../index.html#produits" class="nav-link" data-i18n-en="Products">Produits</a></li>
+        <li><a href="../../index.html#about" class="nav-link" data-i18n-en="About">A propos</a></li>
+        <li><a href="../../index.html#partenaires" class="nav-link" data-i18n-en="Partners">Partenaires</a></li>
+        <li><a href="../../index.html#contact" class="nav-link nav-cta" data-i18n-en="Contact Us">Contactez-nous</a>
+        </li>
+      </ul>
+      <div class="lang-toggle"><button class="lang-btn active" data-lang="fr">FR</button><button class="lang-btn"
+          data-lang="en">EN</button></div>
+      <button class="nav-toggle" id="navToggle" aria-label="Menu"><span></span><span></span><span></span></button>
     </div>
-
-    <section class="section">
-        <div class="container">
-            <div class="section-header reveal">
-                <span class="section-tag">Notre catalogue</span>
-                <h2 class="section-title">Gamme <span class="gradient-text">réseau</span></h2>
-                <p class="section-desc">Cisco, Mikrotik, HP/Aruba, TP-Link Enterprise — les meilleures marques au
-                    meilleur prix.</p>
-            </div>
-            <div class="features-grid">
-                <div class="feature-card reveal" data-delay="0">
-                    <div class="feature-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                            stroke-width="1.5">
-                            <rect x="2" y="7" width="20" height="10" rx="1" />
-                            <path d="M6 11h.01M10 11h.01M14 11h.01M18 11h.01" />
-                        </svg></div>
-                    <h4>Switch Non-managé</h4>
-                    <p>Plug-and-play, 5 à 48 ports Fast/Gigabit. Idéal pour petits réseaux et extensions sans
-                        configuration.</p>
-                </div>
-                <div class="feature-card reveal" data-delay="100">
-                    <div class="feature-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                            stroke-width="1.5">
-                            <rect x="2" y="2" width="20" height="8" rx="2" />
-                            <rect x="2" y="14" width="20" height="8" rx="2" />
-                            <line x1="6" y1="6" x2="6.01" y2="6" />
-                            <line x1="6" y1="18" x2="6.01" y2="18" />
-                        </svg></div>
-                    <h4>Switch Managé Layer 2/3</h4>
-                    <p>VLAN, QoS, Spanning Tree, LACP et gestion centralisée. Pour infrastructures d'entreprise
-                        exigeantes.</p>
-                </div>
-                <div class="feature-card reveal" data-delay="200">
-                    <div class="feature-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                            stroke-width="1.5">
-                            <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z" />
-                        </svg></div>
-                    <h4>Switch PoE / PoE+</h4>
-                    <p>Alimentez vos caméras IP, téléphones VoIP et bornes WiFi directement via le câble réseau. 30W à
-                        60W par port.</p>
-                </div>
-                <div class="feature-card reveal" data-delay="0">
-                    <div class="feature-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                            stroke-width="1.5">
-                            <circle cx="12" cy="12" r="10" />
-                            <path
-                                d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z" />
-                        </svg></div>
-                    <h4>Routeurs WAN</h4>
-                    <p>Mikrotik, Cisco ISR, FortiGate — gestion du trafic WAN, load balancing multi-liens et QoS
-                        applicative.</p>
-                </div>
-                <div class="feature-card reveal" data-delay="100">
-                    <div class="feature-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                            stroke-width="1.5">
-                            <path
-                                d="M5 12.55a11 11 0 0 1 14.08 0M1.42 9a16 16 0 0 1 21.16 0M8.53 16.11a6 6 0 0 1 6.95 0M12 20h.01" />
-                        </svg></div>
-                    <h4>Bornes WiFi Entreprise</h4>
-                    <p>Points d'accès WiFi 6 (802.11ax) en intérieur/extérieur, gestion centralisée par contrôleur cloud
-                        ou physique.</p>
-                </div>
-                <div class="feature-card reveal" data-delay="200">
-                    <div class="feature-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                            stroke-width="1.5">
-                            <path d="M9 17H7A5 5 0 017 7h2M15 7h2a5 5 0 010 10h-2M8 12h8" />
-                        </svg></div>
-                    <h4>Modules SFP / Fibre</h4>
-                    <p>Transceivers SFP, SFP+, câbles fibre optique monomode et multimode pour liaisons longue distance.
-                    </p>
-                </div>
-            </div>
-
-            <div class="section-header reveal" style="margin-top:80px">
-                <span class="section-tag">Comparatif</span>
-                <h2 class="section-title">Choisir le bon <span class="gradient-text">équipement</span></h2>
-            </div>
-            <div style="overflow-x:auto">
-                <table class="specs-table reveal">
-                    <thead>
-                        <tr>
-                            <th>Critère</th>
-                            <th>Switch Unmanaged</th>
-                            <th>Switch Managé</th>
-                            <th>Switch PoE Managé</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>Configuration</td>
-                            <td>Aucune</td>
-                            <td>Interface web / CLI</td>
-                            <td>Interface web / CLI</td>
-                        </tr>
-                        <tr>
-                            <td>VLAN</td>
-                            <td>Non</td>
-                            <td>Oui</td>
-                            <td>Oui</td>
-                        </tr>
-                        <tr>
-                            <td>Alimentation PoE</td>
-                            <td>Non</td>
-                            <td>Selon modèle</td>
-                            <td>Oui (30W–60W/port)</td>
-                        </tr>
-                        <tr>
-                            <td>Idéal pour</td>
-                            <td>Petits bureaux</td>
-                            <td>Entreprises</td>
-                            <td>Caméras IP, VoIP</td>
-                        </tr>
-                        <tr>
-                            <td>Ports disponibles</td>
-                            <td>5–24</td>
-                            <td>8–48</td>
-                            <td>8–48</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-
-            <div class="page-cta reveal">
-                <h3>Dimensionnons votre <span class="gradient-text">réseau</span> ensemble</h3>
-                <p>Nos ingénieurs réseau sélectionnent les équipements adaptés à votre taille et vos besoins.</p>
-                <a href="../../index.html#contact" class="btn btn-primary">Demander un devis réseau</a>
-            </div>
+  </nav>
+  <div class="page-hero">
+    <div class="container">
+      <div class="breadcrumb"><a href="../../index.html" data-i18n-en="Home">Accueil</a><span>&rsaquo;</span><a
+          href="../../index.html#produits" data-i18n-en="Products">Produits</a><span>&rsaquo;</span><span
+          data-i18n-en="Switches &amp; Routers">Switchs &amp; Routeurs</span></div>
+      <div class="page-hero-inner">
+        <div class="page-hero-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+            <rect x="2" y="2" width="20" height="8" rx="2" />
+            <rect x="2" y="14" width="20" height="8" rx="2" />
+            <line x1="6" y1="6" x2="6.01" y2="6" />
+            <line x1="6" y1="18" x2="6.01" y2="18" />
+          </svg></div>
+        <div class="page-hero-text reveal">
+          <span class="section-tag" data-i18n-en="Product">Produit</span>
+          <h1 data-i18n-en="Switches &amp; <span class=&quot;gradient-text&quot;>Routers</span>">Switchs &amp; <span
+              class="gradient-text">Routeurs</span></h1>
+          <p
+            data-i18n-en="Managed switches, unmanaged and PoE. Cisco, HP Aruba, Ubiquiti UniFi — enterprise-grade network equipment for every scale.">
+            Switchs manageables, non manageables et PoE. Cisco, HP Aruba, Ubiquiti UniFi — equipements reseau enterprise
+            pour chaque echelle.</p>
         </div>
-    </section>
-
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-bottom" style="padding:28px 0">
-                <span>© 2024 TNE — Telecoms & Network Engineering. Tous droits réservés.</span>
-                <a href="../../index.html" class="btn btn-ghost" style="padding:8px 20px;font-size:.85rem">← Retour à
-                    l'accueil</a>
-            </div>
+      </div>
+    </div>
+  </div>
+  <section class="section">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag" data-i18n-en="Our range">Notre gamme</span>
+        <h2 class="section-title" data-i18n-en="A reliable <span class=&quot;gradient-text&quot;>backbone</span>">Un
+          reseau <span class="gradient-text">backbone fiable</span></h2>
+        <p class="section-desc"
+          data-i18n-en="Certified equipment with full manufacturer warranty and local technical support.">Equipements
+          certifies avec garantie constructeur complete et support technique local.</p>
+      </div>
+      <div class="features-grid">
+        <div class="feature-card reveal" data-delay="0">
+          <div class="feature-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <rect x="2" y="2" width="20" height="8" rx="2" />
+              <line x1="6" y1="6" x2="6.01" y2="6" />
+            </svg></div>
+          <h4 data-i18n-en="Managed Switches">Switchs Manageables</h4>
+          <p data-i18n-en="Cisco Catalyst 9200, HP Aruba 2540: VLAN, QoS, RSTP, SNMP monitoring, 1/10 Gbps uplinks.">
+            Cisco Catalyst 9200, HP Aruba 2540 : VLAN, QoS, RSTP, supervision SNMP, uplinks 1/10 Gbps.</p>
         </div>
-    </footer>
-    <script src="../../js/main.js"></script>
+        <div class="feature-card reveal" data-delay="100">
+          <div class="feature-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <rect x="2" y="14" width="20" height="8" rx="2" />
+              <line x1="6" y1="18" x2="6.01" y2="18" />
+            </svg></div>
+          <h4 data-i18n-en="PoE Switches">Switchs PoE</h4>
+          <p data-i18n-en="8 to 48 PoE+ ports (802.3at/bt). Power cameras, phones and access points without cabling.">8
+            a 48 ports PoE+ (802.3at/bt). Alimentez cameras, phones et AP sans cablage supplementaire.</p>
+        </div>
+        <div class="feature-card reveal" data-delay="200">
+          <div class="feature-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <path d="M9 17H7A5 5 0 017 7h2M15 7h2a5 5 0 010 10h-2M8 12h8" />
+            </svg></div>
+          <h4 data-i18n-en="Core &amp; Distribution">Coeur de Reseau</h4>
+          <p data-i18n-en="Cisco Catalyst 9500, HPE FlexFabric: Layer 3 routing, StackWise, VRRP, 10/40 Gbps.">Cisco
+            Catalyst 9500, HPE FlexFabric : routage L3, StackWise, VRRP, 10/40 Gbps.</p>
+        </div>
+        <div class="feature-card reveal" data-delay="0">
+          <div class="feature-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+            </svg></div>
+          <h4 data-i18n-en="Security Routers / UTM">Routeurs Securite / UTM</h4>
+          <p data-i18n-en="FortiGate, Sophos, pfSense: firewall, IPS, content filtering, VPN — all-in-one gateway.">
+            FortiGate, Sophos, pfSense : pare-feu, IPS, filtrage, VPN — passerelle tout-en-un.</p>
+        </div>
+        <div class="feature-card reveal" data-delay="100">
+          <div class="feature-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <path
+                d="M1.5 8.5s3-5 10.5-5 10.5 5 10.5 5M1.5 15.5s3 5 10.5 5 10.5-5 10.5-5M5.5 12s1.5-2.5 6.5-2.5S18.5 12 18.5 12M5.5 12s1.5 2.5 6.5 2.5S18.5 12 18.5 12" />
+            </svg></div>
+          <h4 data-i18n-en="WiFi 6 Access Points">Bornes WiFi 6</h4>
+          <p data-i18n-en="Ubiquiti U6, Cisco Meraki, Ruckus: 2.4/5/6 GHz, WPA3, centralized management via cloud.">
+            Ubiquiti U6, Cisco Meraki, Ruckus : 2.4/5/6 GHz, WPA3, gestion centralisee cloud.</p>
+        </div>
+        <div class="feature-card reveal" data-delay="200">
+          <div class="feature-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <circle cx="12" cy="12" r="10" />
+              <path
+                d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z" />
+            </svg></div>
+          <h4 data-i18n-en="4G/5G & Microwave Links">Liens 4G/5G &amp; FH</h4>
+          <p data-i18n-en="Industrial 4G/5G routers and microwave bridges for multi-site and hard-to-cable sites.">
+            Routeurs 4G/5G industriels et ponts micro-ondes pour sites multi-sites et difficiles a cabler.</p>
+        </div>
+      </div>
+      <div class="page-cta reveal">
+        <h3 data-i18n-en="Upgrade your <span class=&quot;gradient-text&quot;>network</span>">Mettez a niveau votre <span
+            class="gradient-text">reseau</span></h3>
+        <p data-i18n-en="Free network audit. Competitive pricing. Official distributor warranty.">Audit reseau gratuit.
+          Prix competitifs. Garantie distributeur officiel.</p>
+        <a href="../../index.html#contact" class="btn btn-primary" data-i18n-en="Request a quote">Demander un devis</a>
+      </div>
+    </div>
+  </section>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-bottom" style="padding:28px 0">
+        <span data-i18n-en="&copy; 2024 TNE &mdash; All rights reserved.">&copy; 2024 TNE &mdash; Telecoms &amp; Network
+          Engineering. Tous droits reserves.</span>
+        <a href="../../index.html" class="btn btn-ghost" style="padding:8px 20px;font-size:.85rem"
+          data-i18n-en="&larr; Back to home">&larr; Retour a l'accueil</a>
+      </div>
+    </div>
+  </footer>
+  <script src="../../js/main.js"></script>
 </body>
 
 </html>

@@ -1,191 +1,158 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="fr">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Réseaux & Systèmes — TNE</title>
-    <meta name="description"
-        content="Conception et déploiement d'infrastructures réseau LAN/WAN, WiFi entreprise et administration systèmes — TNE Douala." />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link
-        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Outfit:wght@300;400;500;600;700&display=swap"
-        rel="stylesheet" />
-    <link rel="icon" href="../../images/favicon.png" type="image/png" />
-    <link rel="stylesheet" href="../../css/style.css" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Reseaux &amp; Systemes — TNE</title>
+  <meta name="description" content="Conception et deploiement de reseaux LAN, WAN, fibre optique — TNE Douala." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Outfit:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet" />
+  <link rel="icon" href="../../images/favicon.png" type="image/png" />
+  <script src="../../js/i18n.js"></script>
+  <link rel="stylesheet" href="../../css/style.css" />
 </head>
 
 <body>
-    <nav class="navbar scrolled" id="navbar">
-        <div class="nav-container">
-            <a href="../../index.html" class="nav-logo"><img src="../../images/logo.png" alt="TNE"
-                    class="logo-img" /></a>
-            <ul class="nav-links" id="navLinks">
-                <li><a href="../../index.html" class="nav-link">Accueil</a></li>
-                <li><a href="../../index.html#services" class="nav-link">Services</a></li>
-                <li><a href="../../index.html#produits" class="nav-link">Produits</a></li>
-                <li><a href="../../index.html#about" class="nav-link">À propos</a></li>
-                <li><a href="../../index.html#partenaires" class="nav-link">Partenaires</a></li>
-                <li><a href="../../index.html#contact" class="nav-link nav-cta">Contactez-nous</a></li>
-            </ul>
-            <button class="nav-toggle" id="navToggle" aria-label="Menu"><span></span><span></span><span></span></button>
-        </div>
-    </nav>
-
-    <div class="page-hero">
-        <div class="container">
-            <div class="breadcrumb">
-                <a href="../../index.html">Accueil</a><span>›</span>
-                <a href="../../index.html#services">Services</a><span>›</span>
-                <span>Réseaux & Systèmes</span>
-            </div>
-            <div class="page-hero-inner">
-                <div class="page-hero-icon">
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
-                        <rect x="2" y="3" width="20" height="14" rx="2" />
-                        <path d="M8 21h8M12 17v4" />
-                        <path d="M6 8h.01M10 8h8" />
-                        <path d="M6 12h12" />
-                    </svg>
-                </div>
-                <div class="page-hero-text reveal">
-                    <span class="section-tag">Réseau</span>
-                    <h1>Réseaux & <span class="gradient-text">Systèmes</span></h1>
-                    <p>Conception, déploiement et maintenance d'infrastructures réseau robustes et performantes pour les
-                        entreprises et institutions.</p>
-                </div>
-            </div>
-        </div>
+  <nav class="navbar scrolled" id="navbar">
+    <div class="nav-container">
+      <a href="../../index.html" class="nav-logo"><img src="../../images/logo.png" alt="TNE" class="logo-img" /></a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="../../index.html" class="nav-link" data-i18n-en="Home">Accueil</a></li>
+        <li><a href="../../index.html#services" class="nav-link" data-i18n-en="Services">Services</a></li>
+        <li><a href="../../index.html#produits" class="nav-link" data-i18n-en="Products">Produits</a></li>
+        <li><a href="../../index.html#about" class="nav-link" data-i18n-en="About">A propos</a></li>
+        <li><a href="../../index.html#partenaires" class="nav-link" data-i18n-en="Partners">Partenaires</a></li>
+        <li><a href="../../index.html#contact" class="nav-link nav-cta" data-i18n-en="Contact Us">Contactez-nous</a>
+        </li>
+      </ul>
+      <div class="lang-toggle"><button class="lang-btn active" data-lang="fr">FR</button><button class="lang-btn"
+          data-lang="en">EN</button></div>
+      <button class="nav-toggle" id="navToggle" aria-label="Menu"><span></span><span></span><span></span></button>
     </div>
-
-    <section class="section">
-        <div class="container">
-            <div class="section-header reveal">
-                <span class="section-tag">Expertise</span>
-                <h2 class="section-title">Nos domaines <span class="gradient-text">d'intervention</span></h2>
-            </div>
-            <div class="features-grid">
-                <div class="feature-card reveal" data-delay="0">
-                    <div class="feature-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                            stroke-width="1.5">
-                            <rect x="2" y="2" width="20" height="8" rx="2" />
-                            <rect x="2" y="14" width="20" height="8" rx="2" />
-                            <line x1="6" y1="6" x2="6.01" y2="6" />
-                            <line x1="6" y1="18" x2="6.01" y2="18" />
-                        </svg></div>
-                    <h4>Infrastructure LAN/WAN</h4>
-                    <p>Câblage structuré cat. 5e/6/6A, fibre optique, installation et certification des installations
-                        réseau.</p>
-                </div>
-                <div class="feature-card reveal" data-delay="100">
-                    <div class="feature-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                            stroke-width="1.5">
-                            <path
-                                d="M5 12.55a11 11 0 0 1 14.08 0M1.42 9a16 16 0 0 1 21.16 0M8.53 16.11a6 6 0 0 1 6.95 0M12 20h.01" />
-                        </svg></div>
-                    <h4>WiFi Entreprise</h4>
-                    <p>Déploiement de réseaux sans fil haute densité avec contrôleurs WiFi, itinérance transparente et
-                        sécurité WPA3.</p>
-                </div>
-                <div class="feature-card reveal" data-delay="200">
-                    <div class="feature-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                            stroke-width="1.5">
-                            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
-                        </svg></div>
-                    <h4>Sécurité Réseau</h4>
-                    <p>Pare-feux, VPN, segmentation VLAN, détection d'intrusion et politiques de sécurité adaptées à
-                        votre contexte.</p>
-                </div>
-                <div class="feature-card reveal" data-delay="0">
-                    <div class="feature-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                            stroke-width="1.5">
-                            <ellipse cx="12" cy="5" rx="9" ry="3" />
-                            <path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3" />
-                            <path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5" />
-                        </svg></div>
-                    <h4>Serveurs & Virtualisation</h4>
-                    <p>Installation et administration de serveurs physiques et virtuels (VMware, Hyper-V), Active
-                        Directory et solutions de sauvegarde.</p>
-                </div>
-                <div class="feature-card reveal" data-delay="100">
-                    <div class="feature-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                            stroke-width="1.5">
-                            <path d="M9 17H7A5 5 0 017 7h2M15 7h2a5 5 0 010 10h-2M8 12h8" />
-                        </svg></div>
-                    <h4>Supervision & Monitoring</h4>
-                    <p>Mise en place d'outils de supervision réseau (SNMP, Zabbix, PRTG) pour une visibilité totale sur
-                        votre infrastructure.</p>
-                </div>
-                <div class="feature-card reveal" data-delay="200">
-                    <div class="feature-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                            stroke-width="1.5">
-                            <path
-                                d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z" />
-                        </svg></div>
-                    <h4>Maintenance & Support</h4>
-                    <p>Contrats de maintenance préventive, support technique et interventions rapides en cas d'incident
-                        réseau.</p>
-                </div>
-            </div>
-
-            <div class="section-header reveal" style="margin-top:80px">
-                <span class="section-tag">Notre approche</span>
-                <h2 class="section-title">Une méthode <span class="gradient-text">éprouvée</span></h2>
-            </div>
-            <div class="benefits-grid">
-                <div class="benefit-item reveal">
-                    <div class="benefit-num">01</div>
-                    <div>
-                        <h5>Audit & Conception</h5>
-                        <p>Analyse de l'existant et conception d'une architecture réseau optimisée pour vos besoins
-                            actuels et futurs.</p>
-                    </div>
-                </div>
-                <div class="benefit-item reveal">
-                    <div class="benefit-num">02</div>
-                    <div>
-                        <h5>Déploiement Certifié</h5>
-                        <p>Installation réalisée par des ingénieurs certifiés Cisco, Mikrotik et autres constructeurs
-                            reconnus.</p>
-                    </div>
-                </div>
-                <div class="benefit-item reveal">
-                    <div class="benefit-num">03</div>
-                    <div>
-                        <h5>Documentation Complète</h5>
-                        <p>Livrables complets : plans réseau, configurations, procédures et guide d'exploitation pour
-                            votre équipe IT.</p>
-                    </div>
-                </div>
-                <div class="benefit-item reveal">
-                    <div class="benefit-num">04</div>
-                    <div>
-                        <h5>Support Continu</h5>
-                        <p>Contrats de support et d'infogérance pour que vous puissiez vous concentrer sur votre cœur de
-                            métier.</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="page-cta reveal">
-                <h3>Audit de votre réseau <span class="gradient-text">offert</span></h3>
-                <p>Nos ingénieurs analysent votre infrastructure existante et vous proposent un plan d'amélioration
-                    détaillé.</p>
-                <a href="../../index.html#contact" class="btn btn-primary">Demander un audit réseau</a>
-            </div>
+  </nav>
+  <div class="page-hero">
+    <div class="container">
+      <div class="breadcrumb"><a href="../../index.html" data-i18n-en="Home">Accueil</a><span>&rsaquo;</span><a
+          href="../../index.html#services" data-i18n-en="Services">Services</a><span>&rsaquo;</span><span
+          data-i18n-en="Networks &amp; Systems">Reseaux &amp; Systemes</span></div>
+      <div class="page-hero-inner">
+        <div class="page-hero-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+            <rect x="2" y="2" width="8" height="8" rx="1" />
+            <rect x="14" y="2" width="8" height="8" rx="1" />
+            <rect x="8" y="14" width="8" height="8" rx="1" />
+            <path d="M6 10v4M18 10v4M10 18H6M18 18h-4" />
+          </svg></div>
+        <div class="page-hero-text reveal">
+          <span class="section-tag" data-i18n-en="Service">Service</span>
+          <h1 data-i18n-en="Networks &amp; <span class=&quot;gradient-text&quot;>Systems</span>">Reseaux &amp; <span
+              class="gradient-text">Systemes</span></h1>
+          <p
+            data-i18n-en="High-performance LAN, WAN and fiber-optic infrastructure engineered for reliability in the most demanding African environments.">
+            Infrastructure LAN, WAN et fibre optique haute performance, concue pour la fiabilite dans les environnements
+            africains les plus exigeants.</p>
         </div>
-    </section>
-
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-bottom" style="padding:28px 0">
-                <span>© 2024 TNE — Telecoms & Network Engineering. Tous droits réservés.</span>
-                <a href="../../index.html" class="btn btn-ghost" style="padding:8px 20px;font-size:.85rem">← Retour à
-                    l'accueil</a>
-            </div>
+      </div>
+    </div>
+  </div>
+  <section class="section">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag" data-i18n-en="Our solutions">Nos solutions</span>
+        <h2 class="section-title" data-i18n-en="A robust <span class=&quot;gradient-text&quot;>network</span>">Un reseau
+          <span class="gradient-text">robuste</span>
+        </h2>
+        <p class="section-desc"
+          data-i18n-en="Cisco, Ubiquiti, MikroTik, HPE — enterprise-grade architectures built for growth.">Cisco,
+          Ubiquiti, MikroTik, HPE — architectures enterprise concues pour la croissance.</p>
+      </div>
+      <div class="features-grid">
+        <div class="feature-card reveal" data-delay="0">
+          <div class="feature-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <rect x="2" y="2" width="20" height="8" rx="2" />
+              <rect x="2" y="14" width="20" height="8" rx="2" />
+              <line x1="6" y1="6" x2="6.01" y2="6" />
+              <line x1="6" y1="18" x2="6.01" y2="18" />
+            </svg></div>
+          <h4 data-i18n-en="LAN &amp; Switching">LAN &amp; Commutation</h4>
+          <p
+            data-i18n-en="Cisco Catalyst, HPE Aruba, Ubiquiti switches. Gigabit PoE, VLAN, redundancy and network security.">
+            Switchs Cisco Catalyst, HPE Aruba, Ubiquiti. Gigabit PoE, VLAN, redondance et securite reseau.</p>
         </div>
-    </footer>
-    <script src="../../js/main.js"></script>
+        <div class="feature-card reveal" data-delay="100"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+            stroke-width="1.5" style="width:0;height:0"></svg>
+          <div class="feature-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <path d="M9 17H7A5 5 0 017 7h2M15 7h2a5 5 0 010 10h-2M8 12h8" />
+            </svg></div>
+          <h4 data-i18n-en="WAN &amp; SD-WAN">WAN &amp; SD-WAN</h4>
+          <p
+            data-i18n-en="Multi-site connectivity via fiber, MPLS, 4G/5G LTE. Intelligent load balancing and automatic failover.">
+            Connectivite multi-sites via fibre, MPLS, 4G/5G LTE. Load balancing intelligent et basculement automatique.
+          </p>
+        </div>
+        <div class="feature-card reveal" data-delay="200">
+          <div class="feature-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <circle cx="12" cy="12" r="2" />
+              <path
+                d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83" />
+            </svg></div>
+          <h4 data-i18n-en="Fiber Optic">Fibre Optique</h4>
+          <p
+            data-i18n-en="Fiber laying, fusion splicing, OTDR testing. Intra-building and inter-building monomode and multimode.">
+            Pose de fibre, epissurage, tests OTDR. Intra et inter-batiment monomode et multimode.</p>
+        </div>
+        <div class="feature-card reveal" data-delay="0">
+          <div class="feature-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <path
+                d="M1.5 8.5s3-5 10.5-5 10.5 5 10.5 5M1.5 15.5s3 5 10.5 5 10.5-5 10.5-5M5.5 12s1.5-2.5 6.5-2.5S18.5 12 18.5 12M5.5 12s1.5 2.5 6.5 2.5S18.5 12 18.5 12" />
+            </svg></div>
+          <h4 data-i18n-en="WiFi Enterprise">WiFi Entreprise</h4>
+          <p
+            data-i18n-en="Ubiquiti UniFi, Cisco Meraki: seamless WiFi 6 coverage for offices, warehouses and campuses.">
+            Ubiquiti UniFi, Cisco Meraki : couverture WiFi 6 homogene pour bureaux, entrepots et campus.</p>
+        </div>
+        <div class="feature-card reveal" data-delay="100">
+          <div class="feature-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+            </svg></div>
+          <h4 data-i18n-en="Firewall &amp; VPN">Pare-feu &amp; VPN</h4>
+          <p data-i18n-en="FortiGate, pfSense, Sophos: perimeter protection, content filtering, IPSec/SSL VPN.">
+            FortiGate, pfSense, Sophos : protection perimetrique, filtrage de contenu, VPN IPSec/SSL.</p>
+        </div>
+        <div class="feature-card reveal" data-delay="200">
+          <div class="feature-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <rect x="4" y="4" width="16" height="16" rx="2" />
+              <path d="M4 12h16M12 4v16" />
+            </svg></div>
+          <h4 data-i18n-en="Server Infrastructure">Infrastructure Serveurs</h4>
+          <p
+            data-i18n-en="Rack servers, NAS, UPS, virtualization (VMware, Proxmox): a complete data center for your office.">
+            Serveurs rack, NAS, onduleurs, virtualisation (VMware, Proxmox) : un datacenter complet pour votre bureau.
+          </p>
+        </div>
+      </div>
+      <div class="page-cta reveal">
+        <h3 data-i18n-en="Build your <span class=&quot;gradient-text&quot;>reliable infrastructure</span>">Construisez
+          votre <span class="gradient-text">infrastructure fiable</span></h3>
+        <p data-i18n-en="Free network audit. Detailed technical proposal within 48 hours.">Audit reseau gratuit.
+          Proposition technique detaillee sous 48h.</p>
+        <a href="../../index.html#contact" class="btn btn-primary" data-i18n-en="Request an audit">Demander un audit</a>
+      </div>
+    </div>
+  </section>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-bottom" style="padding:28px 0">
+        <span data-i18n-en="&copy; 2024 TNE &mdash; All rights reserved.">&copy; 2024 TNE &mdash; Telecoms &amp; Network
+          Engineering. Tous droits reserves.</span>
+        <a href="../../index.html" class="btn btn-ghost" style="padding:8px 20px;font-size:.85rem"
+          data-i18n-en="&larr; Back to home">&larr; Retour a l'accueil</a>
+      </div>
+    </div>
+  </footer>
+  <script src="../../js/main.js"></script>
 </body>
 
 </html>

@@ -1,193 +1,149 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="fr">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Téléphones IP — TNE</title>
-    <meta name="description" content="Postes IP professionnels Innovaphone, Cisco, Yealink — TNE Douala, Cameroun." />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link
-        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Outfit:wght@300;400;500;600;700&display=swap"
-        rel="stylesheet" />
-    <link rel="icon" href="../../images/favicon.png" type="image/png" />
-    <link rel="stylesheet" href="../../css/style.css" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Telephones IP — TNE</title>
+  <meta name="description" content="Telephones de bureau IP Yealink, Cisco, Fanvil pour entreprises — TNE Douala." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Outfit:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet" />
+  <link rel="icon" href="../../images/favicon.png" type="image/png" />
+  <script src="../../js/i18n.js"></script>
+  <link rel="stylesheet" href="../../css/style.css" />
 </head>
 
 <body>
-    <nav class="navbar scrolled" id="navbar">
-        <div class="nav-container">
-            <a href="../../index.html" class="nav-logo"><img src="../../images/logo.png" alt="TNE"
-                    class="logo-img" /></a>
-            <ul class="nav-links" id="navLinks">
-                <li><a href="../../index.html" class="nav-link">Accueil</a></li>
-                <li><a href="../../index.html#services" class="nav-link">Services</a></li>
-                <li><a href="../../index.html#produits" class="nav-link">Produits</a></li>
-                <li><a href="../../index.html#about" class="nav-link">À propos</a></li>
-                <li><a href="../../index.html#partenaires" class="nav-link">Partenaires</a></li>
-                <li><a href="../../index.html#contact" class="nav-link nav-cta">Contactez-nous</a></li>
-            </ul>
-            <button class="nav-toggle" id="navToggle" aria-label="Menu"><span></span><span></span><span></span></button>
-        </div>
-    </nav>
-
-    <div class="page-hero">
-        <div class="container">
-            <div class="breadcrumb">
-                <a href="../../index.html">Accueil</a><span>›</span>
-                <a href="../../index.html#produits">Produits</a><span>›</span>
-                <span>Téléphones IP</span>
-            </div>
-            <div class="page-hero-inner">
-                <div class="page-hero-icon">
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
-                        <path
-                            d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.15 13.5 19.79 19.79 0 0 1 2 4.82 2 2 0 0 1 3.98 2.63h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z" />
-                    </svg>
-                </div>
-                <div class="page-hero-text reveal">
-                    <span class="section-tag">Produit</span>
-                    <h1>Téléphones <span class="gradient-text">IP</span></h1>
-                    <p>Postes téléphoniques IP de bureau des meilleures marques mondiales, compatibles avec tous les
-                        PABX IP du marché.</p>
-                </div>
-            </div>
-        </div>
+  <nav class="navbar scrolled" id="navbar">
+    <div class="nav-container">
+      <a href="../../index.html" class="nav-logo"><img src="../../images/logo.png" alt="TNE" class="logo-img" /></a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="../../index.html" class="nav-link" data-i18n-en="Home">Accueil</a></li>
+        <li><a href="../../index.html#services" class="nav-link" data-i18n-en="Services">Services</a></li>
+        <li><a href="../../index.html#produits" class="nav-link" data-i18n-en="Products">Produits</a></li>
+        <li><a href="../../index.html#about" class="nav-link" data-i18n-en="About">A propos</a></li>
+        <li><a href="../../index.html#partenaires" class="nav-link" data-i18n-en="Partners">Partenaires</a></li>
+        <li><a href="../../index.html#contact" class="nav-link nav-cta" data-i18n-en="Contact Us">Contactez-nous</a>
+        </li>
+      </ul>
+      <div class="lang-toggle"><button class="lang-btn active" data-lang="fr">FR</button><button class="lang-btn"
+          data-lang="en">EN</button></div>
+      <button class="nav-toggle" id="navToggle" aria-label="Menu"><span></span><span></span><span></span></button>
     </div>
-
-    <section class="section">
-        <div class="container">
-            <div class="section-header reveal">
-                <span class="section-tag">Nos marques</span>
-                <h2 class="section-title">Une gamme <span class="gradient-text">complète</span></h2>
-            </div>
-            <div class="features-grid">
-                <div class="feature-card reveal" data-delay="0">
-                    <div class="feature-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                            stroke-width="1.5">
-                            <rect x="5" y="2" width="14" height="20" rx="2" />
-                            <line x1="12" y1="18" x2="12.01" y2="18" />
-                        </svg></div>
-                    <h4>Innovaphone IP222 / IP232</h4>
-                    <p>Postes de direction haut de gamme : écran couleur tactile, Bluetooth, WiFi, HD voice. Partenaire
-                        officiel TNE.</p>
-                </div>
-                <div class="feature-card reveal" data-delay="100">
-                    <div class="feature-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                            stroke-width="1.5">
-                            <rect x="5" y="2" width="14" height="20" rx="2" />
-                            <path d="M9 7h6M9 11h6M9 15h4" />
-                        </svg></div>
-                    <h4>Yealink T3x / T4x / T5x</h4>
-                    <p>Gamme complète du bureau à la salle de direction. Qualité audio excellente, PoE natif, interface
-                        intuitive.</p>
-                </div>
-                <div class="feature-card reveal" data-delay="200">
-                    <div class="feature-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                            stroke-width="1.5">
-                            <path d="M22 16.92v3a2 2 0 0 1-2.18 2" />
-                            <rect x="5" y="2" width="14" height="20" rx="2" />
-                        </svg></div>
-                    <h4>Cisco IP Phone 6800 / 7800</h4>
-                    <p>Robustesse et sécurité enterprise. Chiffrement des appels, intégration Cisco UCM et CUCM.</p>
-                </div>
-                <div class="feature-card reveal" data-delay="0">
-                    <div class="feature-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                            stroke-width="1.5">
-                            <path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z" />
-                            <path d="M19 10v2a7 7 0 0 1-14 0v-2" />
-                        </svg></div>
-                    <h4>Conférenciers de Table</h4>
-                    <p>Yealink CP960, Jabra Speak — microphones 360°, haut-parleur HD, connexion USB/Bluetooth.</p>
-                </div>
-                <div class="feature-card reveal" data-delay="100">
-                    <div class="feature-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                            stroke-width="1.5">
-                            <rect x="5" y="2" width="14" height="20" rx="2" />
-                            <path d="M12 14l-2 3h4l-2-3z" />
-                        </svg></div>
-                    <h4>Téléphones DECT Sans-Fil</h4>
-                    <p>Mobilité en entreprise pour entrepôts, hôtels, hôpitaux. Portée jusqu'à 300 m en intérieur.</p>
-                </div>
-                <div class="feature-card reveal" data-delay="200">
-                    <div class="feature-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                            stroke-width="1.5">
-                            <rect x="2" y="3" width="20" height="14" rx="2" />
-                            <path d="M8 21h8M12 17v4" />
-                        </svg></div>
-                    <h4>Softphones & Apps Mobile</h4>
-                    <p>Applications iOS/Android et PC pour téléphoner sur votre numéro de bureau depuis n'importe où.
-                    </p>
-                </div>
-            </div>
-
-            <div class="section-header reveal" style="margin-top:80px">
-                <span class="section-tag">Comparatif</span>
-                <h2 class="section-title">Choisir son <span class="gradient-text">téléphone IP</span></h2>
-            </div>
-            <div style="overflow-x:auto">
-                <table class="specs-table reveal">
-                    <thead>
-                        <tr>
-                            <th>Gamme</th>
-                            <th>Entrée de gamme</th>
-                            <th>Milieu de gamme</th>
-                            <th>Haut de gamme</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>Exemple</td>
-                            <td>Yealink T31P</td>
-                            <td>Yealink T46U</td>
-                            <td>Innovaphone IP232</td>
-                        </tr>
-                        <tr>
-                            <td>Lignes SIP</td>
-                            <td>2</td>
-                            <td>16</td>
-                            <td>20+</td>
-                        </tr>
-                        <tr>
-                            <td>Écran</td>
-                            <td>LCD 3.7"</td>
-                            <td>Couleur 4.3"</td>
-                            <td>Couleur 7" tactile</td>
-                        </tr>
-                        <tr>
-                            <td>Bluetooth / WiFi</td>
-                            <td>Non</td>
-                            <td>Selon modèle</td>
-                            <td>Oui</td>
-                        </tr>
-                        <tr>
-                            <td>Idéal pour</td>
-                            <td>Employés</td>
-                            <td>Managers</td>
-                            <td>Dirigeants</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-
-            <div class="page-cta reveal">
-                <h3>Équipez vos <span class="gradient-text">collaborateurs</span></h3>
-                <p>Commandes à l'unité ou par lot. Livraison et configuration à votre site incluses.</p>
-                <a href="../../index.html#contact" class="btn btn-primary">Demander un devis</a>
-            </div>
+  </nav>
+  <div class="page-hero">
+    <div class="container">
+      <div class="breadcrumb"><a href="../../index.html" data-i18n-en="Home">Accueil</a><span>&rsaquo;</span><a
+          href="../../index.html#produits" data-i18n-en="Products">Produits</a><span>&rsaquo;</span><span
+          data-i18n-en="IP Phones">Telephones IP</span></div>
+      <div class="page-hero-inner">
+        <div class="page-hero-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+            <path
+              d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.15 13.5 19.79 19.79 0 0 1 2 4.82 2 2 0 0 1 3.98 2.63h3a2 2 0 0 1 2 1.72.84.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45.84.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
+          </svg></div>
+        <div class="page-hero-text reveal">
+          <span class="section-tag" data-i18n-en="Product">Produit</span>
+          <h1 data-i18n-en="IP <span class=&quot;gradient-text&quot;>Phones</span>">Telephones <span
+              class="gradient-text">IP</span></h1>
+          <p
+            data-i18n-en="Professional IP desk phones from Yealink, Cisco, Fanvil and Grandstream. HD audio, color screens and PoE — for every profile.">
+            Telephones de bureau IP Yealink, Cisco, Fanvil et Grandstream. Audio HD, ecrans couleur et PoE — pour chaque
+            profil d utilisateur.</p>
         </div>
-    </section>
-
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-bottom" style="padding:28px 0">
-                <span>© 2024 TNE — Telecoms &amp; Network Engineering. Tous droits réservés.</span>
-                <a href="../../index.html" class="btn btn-ghost" style="padding:8px 20px;font-size:.85rem">← Retour à
-                    l'accueil</a>
-            </div>
+      </div>
+    </div>
+  </div>
+  <section class="section">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag" data-i18n-en="Our range">Notre gamme</span>
+        <h2 class="section-title"
+          data-i18n-en="The right phone for every <span class=&quot;gradient-text&quot;>user</span>">Le bon telephone
+          pour chaque <span class="gradient-text">utilisateur</span></h2>
+        <p class="section-desc"
+          data-i18n-en="SIP-compatible with Asterisk, FreePBX, Cisco CUCM and all major PBX systems.">Compatibles SIP
+          avec Asterisk, FreePBX, Cisco CUCM et tous les principaux systemes PABX.</p>
+      </div>
+      <div class="features-grid">
+        <div class="feature-card reveal" data-delay="0">
+          <div class="feature-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <rect x="2" y="3" width="20" height="14" rx="2" />
+              <path d="M8 21h8M12 17v4M6 8h.01M10 8h8M6 12h12" />
+            </svg></div>
+          <h4 data-i18n-en="Entry-Level Phones">Postes d Entree</h4>
+          <p data-i18n-en="Yealink T31P, Fanvil X3S: 2 SIP lines, HD audio, PoE 802.3af. Ideal for workstations.">
+            Yealink T31P, Fanvil X3S : 2 lignes SIP, audio HD, PoE 802.3af. Ideal pour les postes de travail.</p>
         </div>
-    </footer>
-    <script src="../../js/main.js"></script>
+        <div class="feature-card reveal" data-delay="100">
+          <div class="feature-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <rect x="2" y="3" width="20" height="14" rx="2" />
+              <path d="M2 9h20M8 21h8M12 17v4" />
+            </svg></div>
+          <h4 data-i18n-en="Mid-Range Phones">Postes Milieu de Gamme</h4>
+          <p data-i18n-en="Yealink T46U, Grandstream GXP2170: color screen, 6 SIP accounts, Bluetooth and WiFi.">Yealink
+            T46U, Grandstream GXP2170 : ecran couleur, 6 comptes SIP, Bluetooth et WiFi.</p>
+        </div>
+        <div class="feature-card reveal" data-delay="200">
+          <div class="feature-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <rect x="5" y="2" width="14" height="20" rx="2" />
+              <path d="M12 18h.01M8 6h8M8 10h8M8 14h4" />
+            </svg></div>
+          <h4 data-i18n-en="Touch Screen Phones">Postes Haute Gamme</h4>
+          <p data-i18n-en="Yealink T58A, Cisco 8865: Android, touchscreen, USB camera, video calling.">Yealink T58A,
+            Cisco 8865 : Android, ecran tactile, camera USB, appels video.</p>
+        </div>
+        <div class="feature-card reveal" data-delay="0">
+          <div class="feature-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
+              <circle cx="9" cy="7" r="4" />
+              <path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75" />
+            </svg></div>
+          <h4 data-i18n-en="Conference Phones">Telephones de Conference</h4>
+          <p data-i18n-en="Yealink CP960, Polycom Trio: 360 microphone, noise cancellation, up to 20 participants.">
+            Yealink CP960, Polycom Trio : micro 360, annulation de bruit, jusqu a 20 participants.</p>
+        </div>
+        <div class="feature-card reveal" data-delay="100">
+          <div class="feature-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <rect x="5" y="2" width="14" height="20" rx="2" />
+              <path d="M12 18h.01" />
+            </svg></div>
+          <h4 data-i18n-en="DECT Cordless">Telephones DECT</h4>
+          <p data-i18n-en="Yealink W76 DECT, Gigaset: wireless mobility while keeping your extension from any area.">
+            Yealink W76 DECT, Gigaset : mobilite sans fil tout en conservant votre poste de n importe ou.</p>
+        </div>
+        <div class="feature-card reveal" data-delay="200">
+          <div class="feature-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <path d="M9 17H7A5 5 0 017 7h2M15 7h2a5 5 0 010 10h-2M8 12h8" />
+            </svg></div>
+          <h4 data-i18n-en="Expansion Modules">Modules d Extension</h4>
+          <p data-i18n-en="BLF expansion consoles: up to 160 programmable keys for operator and receptionist profiles.">
+            Consoles BLF : jusqu a 160 touches programmables pour les profils standard et reception.">
+          </p>
+        </div>
+      </div>
+      <div class="page-cta reveal">
+        <h3 data-i18n-en="Equip your teams with <span class=&quot;gradient-text&quot;>premium phones</span>">Equipez vos
+          equipes de <span class="gradient-text">telephones premium</span></h3>
+        <p
+          data-i18n-en="Volume pricing from 5 units. Provisioning and configuration included. Next-day delivery in Douala.">
+          Tarifs degressifs a partir de 5 postes. Provisioning et configuration inclus. Livraison J+1 a Douala.</p>
+        <a href="../../index.html#contact" class="btn btn-primary" data-i18n-en="Request a quote">Demander un devis</a>
+      </div>
+    </div>
+  </section>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-bottom" style="padding:28px 0">
+        <span data-i18n-en="&copy; 2024 TNE &mdash; All rights reserved.">&copy; 2024 TNE &mdash; Telecoms &amp; Network
+          Engineering. Tous droits reserves.</span>
+        <a href="../../index.html" class="btn btn-ghost" style="padding:8px 20px;font-size:.85rem"
+          data-i18n-en="&larr; Back to home">&larr; Retour a l'accueil</a>
+      </div>
+    </div>
+  </footer>
+  <script src="../../js/main.js"></script>
 </body>
 
 </html>

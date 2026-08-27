@@ -1,191 +1,149 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="fr">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Panneaux Solaires — TNE</title>
-    <meta name="description"
-        content="Solutions d'alimentation solaire et panneaux photovoltaïques pour sites télécoms et entreprises — TNE Douala, Cameroun." />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link
-        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Outfit:wght@300;400;500;600;700&display=swap"
-        rel="stylesheet" />
-    <link rel="icon" href="../../images/favicon.png" type="image/png" />
-    <link rel="stylesheet" href="../../css/style.css" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Panneaux Solaires — TNE</title>
+  <meta name="description" content="Systemes solaires photovoltaiques pour sites telecoms et bureaux — TNE Douala." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Outfit:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet" />
+  <link rel="icon" href="../../images/favicon.png" type="image/png" />
+  <script src="../../js/i18n.js"></script>
+  <link rel="stylesheet" href="../../css/style.css" />
 </head>
 
 <body>
-    <nav class="navbar scrolled" id="navbar">
-        <div class="nav-container">
-            <a href="../../index.html" class="nav-logo"><img src="../../images/logo.png" alt="TNE"
-                    class="logo-img" /></a>
-            <ul class="nav-links" id="navLinks">
-                <li><a href="../../index.html" class="nav-link">Accueil</a></li>
-                <li><a href="../../index.html#services" class="nav-link">Services</a></li>
-                <li><a href="../../index.html#produits" class="nav-link">Produits</a></li>
-                <li><a href="../../index.html#about" class="nav-link">À propos</a></li>
-                <li><a href="../../index.html#partenaires" class="nav-link">Partenaires</a></li>
-                <li><a href="../../index.html#contact" class="nav-link nav-cta">Contactez-nous</a></li>
-            </ul>
-            <button class="nav-toggle" id="navToggle" aria-label="Menu"><span></span><span></span><span></span></button>
-        </div>
-    </nav>
-
-    <div class="page-hero">
-        <div class="container">
-            <div class="breadcrumb">
-                <a href="../../index.html">Accueil</a><span>›</span>
-                <a href="../../index.html#produits">Produits</a><span>›</span>
-                <span>Panneaux Solaires</span>
-            </div>
-            <div class="page-hero-inner">
-                <div class="page-hero-icon">
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
-                        <path d="M12 2.5L2 7l10 5 10-5-10-4.5z" />
-                        <path d="M2 17l10 5 10-5" />
-                        <path d="M2 12l10 5 10-5" />
-                    </svg>
-                </div>
-                <div class="page-hero-text reveal">
-                    <span class="section-tag">Produit</span>
-                    <h1>Panneaux <span class="gradient-text">Solaires</span></h1>
-                    <p>Solutions d'énergie solaire autonomes pour alimenter vos équipements télécoms, systèmes de
-                        surveillance et infrastructures en zones off-grid ou comme alimentation de secours.</p>
-                </div>
-            </div>
-        </div>
+  <nav class="navbar scrolled" id="navbar">
+    <div class="nav-container">
+      <a href="../../index.html" class="nav-logo"><img src="../../images/logo.png" alt="TNE" class="logo-img" /></a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="../../index.html" class="nav-link" data-i18n-en="Home">Accueil</a></li>
+        <li><a href="../../index.html#services" class="nav-link" data-i18n-en="Services">Services</a></li>
+        <li><a href="../../index.html#produits" class="nav-link" data-i18n-en="Products">Produits</a></li>
+        <li><a href="../../index.html#about" class="nav-link" data-i18n-en="About">A propos</a></li>
+        <li><a href="../../index.html#partenaires" class="nav-link" data-i18n-en="Partners">Partenaires</a></li>
+        <li><a href="../../index.html#contact" class="nav-link nav-cta" data-i18n-en="Contact Us">Contactez-nous</a>
+        </li>
+      </ul>
+      <div class="lang-toggle"><button class="lang-btn active" data-lang="fr">FR</button><button class="lang-btn"
+          data-lang="en">EN</button></div>
+      <button class="nav-toggle" id="navToggle" aria-label="Menu"><span></span><span></span><span></span></button>
     </div>
-
-    <section class="section">
-        <div class="container">
-            <div class="section-header reveal">
-                <span class="section-tag">Solutions solaires</span>
-                <h2 class="section-title">Nos <span class="gradient-text">systèmes</span></h2>
-                <p class="section-desc">Du panneau individuel à l'installation complète avec stockage et gestion
-                    intelligente de l'énergie.</p>
-            </div>
-            <div class="features-grid">
-                <div class="feature-card reveal" data-delay="0">
-                    <div class="feature-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                            stroke-width="1.5">
-                            <rect x="3" y="3" width="18" height="18" rx="2" />
-                            <path d="M3 9h18M9 21V9" />
-                        </svg></div>
-                    <h4>Panneaux Monocristallins</h4>
-                    <p>Rendement supérieur (20–22%). Idéaux pour espaces limités. Puissances de 100 Wc à 550 Wc par
-                        panneau.</p>
-                </div>
-                <div class="feature-card reveal" data-delay="100">
-                    <div class="feature-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                            stroke-width="1.5">
-                            <rect x="3" y="3" width="18" height="18" rx="2" />
-                            <path d="M3 9h18M3 15h18M9 3v18M15 3v18" />
-                        </svg></div>
-                    <h4>Panneaux Polycristallins</h4>
-                    <p>Rapport qualité-prix optimal. Rendement 15–17%, robustes et éprouvés pour installations de grande
-                        taille.</p>
-                </div>
-                <div class="feature-card reveal" data-delay="200">
-                    <div class="feature-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                            stroke-width="1.5">
-                            <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z" />
-                        </svg></div>
-                    <h4>Régulateurs & Onduleurs</h4>
-                    <p>MPPT et PWM pour optimiser la charge des batteries. Onduleurs hybrides avec basculement
-                        automatique réseau/solaire.</p>
-                </div>
-                <div class="feature-card reveal" data-delay="0">
-                    <div class="feature-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                            stroke-width="1.5">
-                            <rect x="6" y="2" width="12" height="20" rx="2" />
-                            <line x1="10" y1="6" x2="14" y2="6" />
-                            <line x1="9" y1="18" x2="15" y2="18" />
-                        </svg></div>
-                    <h4>Batteries de Stockage</h4>
-                    <p>Batteries gel, AGM ou lithium-fer-phosphate pour stocker l'énergie solaire et assurer l'autonomie
-                        nocturne.</p>
-                </div>
-                <div class="feature-card reveal" data-delay="100">
-                    <div class="feature-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                            stroke-width="1.5">
-                            <circle cx="12" cy="12" r="10" />
-                            <path
-                                d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z" />
-                        </svg></div>
-                    <h4>Systèmes Off-Grid Complets</h4>
-                    <p>Kits autonomes clé en main pour sites isolés : pylônes GSM, répéteurs, caméras de surveillance
-                        sans réseau.</p>
-                </div>
-                <div class="feature-card reveal" data-delay="200">
-                    <div class="feature-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                            stroke-width="1.5">
-                            <path
-                                d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z" />
-                        </svg></div>
-                    <h4>Installation & Maintenance</h4>
-                    <p>Cadrage, câblage, fixation et mise en service par nos techniciens certifiés. Contrats de
-                        maintenance préventive.</p>
-                </div>
-            </div>
-
-            <div class="section-header reveal" style="margin-top:80px">
-                <span class="section-tag">Applications</span>
-                <h2 class="section-title">Cas <span class="gradient-text">d'utilisation</span></h2>
-            </div>
-            <div class="benefits-grid">
-                <div class="benefit-item reveal">
-                    <div class="benefit-num">01</div>
-                    <div>
-                        <h5>Sites Télécoms Isolés</h5>
-                        <p>Alimentation de pylônes GSM, répéteurs et équipements de transmission dans les zones sans
-                            électricité.</p>
-                    </div>
-                </div>
-                <div class="benefit-item reveal">
-                    <div class="benefit-num">02</div>
-                    <div>
-                        <h5>Caméras Solaires</h5>
-                        <p>Systèmes vidéosurveillance autonomes pour périmètres, parkings et zones rurales éloignées du
-                            réseau électrique.</p>
-                    </div>
-                </div>
-                <div class="benefit-item reveal">
-                    <div class="benefit-num">03</div>
-                    <div>
-                        <h5>Alimentation de Secours</h5>
-                        <p>Continuité d'activité pendant les coupures électriques fréquentes grâce à un stockage solaire
-                            tampon.</p>
-                    </div>
-                </div>
-                <div class="benefit-item reveal">
-                    <div class="benefit-num">04</div>
-                    <div>
-                        <h5>Bâtiments & Entreprises</h5>
-                        <p>Réduction de la facture électrique et indépendance énergétique pour bureaux, entrepôts et
-                            usines.</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="page-cta reveal">
-                <h3>Étude <span class="gradient-text">solaire</span> gratuite</h3>
-                <p>Dimensionnement personnalisé selon vos consommations, votre localisation et votre budget.</p>
-                <a href="../../index.html#contact" class="btn btn-primary">Demander une étude solaire</a>
-            </div>
+  </nav>
+  <div class="page-hero">
+    <div class="container">
+      <div class="breadcrumb"><a href="../../index.html" data-i18n-en="Home">Accueil</a><span>&rsaquo;</span><a
+          href="../../index.html#produits" data-i18n-en="Products">Produits</a><span>&rsaquo;</span><span
+          data-i18n-en="Solar Panels">Panneaux Solaires</span></div>
+      <div class="page-hero-inner">
+        <div class="page-hero-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+            <circle cx="12" cy="12" r="5" />
+            <path
+              d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42" />
+          </svg></div>
+        <div class="page-hero-text reveal">
+          <span class="section-tag" data-i18n-en="Product">Produit</span>
+          <h1 data-i18n-en="Solar <span class=&quot;gradient-text&quot;>Panels</span>">Panneaux <span
+              class="gradient-text">Solaires</span></h1>
+          <p
+            data-i18n-en="Photovoltaic systems for telecoms sites, offices and off-grid installations. Energy autonomy in African sunshine.">
+            Systemes photovoltaiques pour sites telecoms, bureaux et installations hors-reseau. Autonomie energetique
+            sous le soleil africain.</p>
         </div>
-    </section>
-
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-bottom" style="padding:28px 0">
-                <span>© 2024 TNE — Telecoms & Network Engineering. Tous droits réservés.</span>
-                <a href="../../index.html" class="btn btn-ghost" style="padding:8px 20px;font-size:.85rem">← Retour à
-                    l'accueil</a>
-            </div>
+      </div>
+    </div>
+  </div>
+  <section class="section">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag" data-i18n-en="Our range">Notre gamme</span>
+        <h2 class="section-title" data-i18n-en="Clean, <span class=&quot;gradient-text&quot;>free energy</span>">Energie
+          propre, <span class="gradient-text">energie libre</span></h2>
+        <p class="section-desc"
+          data-i18n-en="Monocrystalline and bifacial panels with 25-year performance warranty and 5-year product warranty.">
+          Panneaux monocristallins et bifaciaux avec garantie de performance 25 ans et garantie produit 5 ans.</p>
+      </div>
+      <div class="features-grid">
+        <div class="feature-card reveal" data-delay="0">
+          <div class="feature-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <rect x="3" y="3" width="18" height="18" rx="2" />
+              <path d="M3 9h18M9 3v6M15 3v6M3 15h18M9 15v6M15 15v6" />
+            </svg></div>
+          <h4 data-i18n-en="Monocrystalline Panels">Panneaux Monocristallins</h4>
+          <p data-i18n-en="200W to 600W per panel. 21%+ efficiency. Ideal for limited-space installations.">200W a 600W
+            par panneau. Efficacite superieure a 21%. Ideal pour les installations a espace limite.</p>
         </div>
-    </footer>
-    <script src="../../js/main.js"></script>
+        <div class="feature-card reveal" data-delay="100">
+          <div class="feature-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <circle cx="12" cy="12" r="5" />
+              <path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2" />
+            </svg></div>
+          <h4 data-i18n-en="Bifacial Panels">Panneaux Bifaciaux</h4>
+          <p
+            data-i18n-en="Capture sunlight on both sides: up to 30% extra yield vs standard panels on reflective surfaces.">
+            Captent la lumiere des deux faces : jusqu a 30% de rendement supplementaire sur surfaces reflechissantes.
+          </p>
+        </div>
+        <div class="feature-card reveal" data-delay="200">
+          <div class="feature-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <path
+                d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z" />
+            </svg></div>
+          <h4 data-i18n-en="Grid-Tie Inverters">Onduleurs Hybrides</h4>
+          <p data-i18n-en="MPPT charge controllers, grid-tie, off-grid and hybrid inverters. Growatt, Victron, SMA.">
+            Regulateurs MPPT, onduleurs raccordes reseau, hors-reseau et hybrides. Growatt, Victron, SMA.</p>
+        </div>
+        <div class="feature-card reveal" data-delay="0">
+          <div class="feature-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <rect x="2" y="7" width="20" height="14" rx="2" />
+              <path d="M16 7V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2M12 12v5M10 14h4" />
+            </svg></div>
+          <h4 data-i18n-en="Mounting Structures">Structures de Montage</h4>
+          <p
+            data-i18n-en="Aluminum racking for flat roofs, pitched roofs and ground mounts. Wind-resistant up to 200 km/h.">
+            Rails aluminium pour toitures plates, inclinees et au sol. Resistant aux vents jusqu a 200 km/h.</p>
+        </div>
+        <div class="feature-card reveal" data-delay="100">
+          <div class="feature-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <path d="M22 12h-4l-3 9L9 3l-3 9H2" />
+            </svg></div>
+          <h4 data-i18n-en="Monitoring System">Systeme de Supervision</h4>
+          <p data-i18n-en="Real-time production monitoring via app. Alerts, yield history and efficiency reports.">
+            Supervision de production en temps reel via application. Alertes, historique et rapports de rendement.</p>
+        </div>
+        <div class="feature-card reveal" data-delay="200">
+          <div class="feature-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+            </svg></div>
+          <h4 data-i18n-en="Hybrid + Generator">Hybride Solaire-Groupe</h4>
+          <p data-i18n-en="Smart coupling of solar panels, batteries and backup generator for 100% power continuity.">
+            Couplage intelligent panneaux, batteries et groupe electrogene pour continuite total du courant.</p>
+        </div>
+      </div>
+      <div class="page-cta reveal">
+        <h3 data-i18n-en="Achieve energy <span class=&quot;gradient-text&quot;>independence</span>">Atteignez l
+          independance <span class="gradient-text">energetique</span></h3>
+        <p data-i18n-en="Free solar study. ROI calculated in 3 to 5 years. 25-year performance guarantee.">Etude solaire
+          gratuite. Retour sur investissement en 3 a 5 ans. Garantie de performance 25 ans.</p>
+        <a href="../../index.html#contact" class="btn btn-primary" data-i18n-en="Request a solar study">Demander une
+          etude solaire</a>
+      </div>
+    </div>
+  </section>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-bottom" style="padding:28px 0">
+        <span data-i18n-en="&copy; 2024 TNE &mdash; All rights reserved.">&copy; 2024 TNE &mdash; Telecoms &amp; Network
+          Engineering. Tous droits reserves.</span>
+        <a href="../../index.html" class="btn btn-ghost" style="padding:8px 20px;font-size:.85rem"
+          data-i18n-en="&larr; Back to home">&larr; Retour a l'accueil</a>
+      </div>
+    </div>
+  </footer>
+  <script src="../../js/main.js"></script>
 </body>
 
 </html>

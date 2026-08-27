@@ -311,6 +311,42 @@ ul {
   transition: var(--transition);
 }
 
+/* ─── LANGUAGE TOGGLE ─────────────────────────────── */
+.lang-toggle {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 50px;
+  padding: 3px 4px;
+  margin-left: 8px;
+}
+
+.lang-btn {
+  background: none;
+  border: none;
+  color: var(--text-muted);
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  padding: 4px 10px;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: var(--transition);
+  font-family: var(--font-head);
+}
+
+.lang-btn.active {
+  background: linear-gradient(135deg, var(--accent), var(--accent-2));
+  color: #000;
+}
+
+.lang-btn:hover:not(.active) {
+  color: var(--text);
+  background: var(--bg-card-hover);
+}
+
 /* ─── HERO ────────────────────────────────────────── */
 .hero {
   position: relative;

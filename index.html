@@ -14,6 +14,7 @@
     rel="stylesheet" />
   <link rel="icon" href="images/favicon.png" type="image/png" />
   <link rel="stylesheet" href="css/style.css" />
+  <script src="js/i18n.js"></script>
 </head>
 
 <body>
@@ -26,14 +27,17 @@
       </a>
 
       <ul class="nav-links" id="navLinks">
-        <li><a href="#accueil" class="nav-link">Accueil</a></li>
-        <li><a href="#services" class="nav-link">Services</a></li>
-        <li><a href="#produits" class="nav-link">Produits</a></li>
-        <li><a href="#about" class="nav-link">À propos</a></li>
-        <li><a href="#partenaires" class="nav-link">Partenaires</a></li>
-        <li><a href="#contact" class="nav-link nav-cta">Contactez-nous</a></li>
+        <li><a href="#accueil" class="nav-link" data-i18n-en="Home">Accueil</a></li>
+        <li><a href="#services" class="nav-link" data-i18n-en="Services">Services</a></li>
+        <li><a href="#produits" class="nav-link" data-i18n-en="Products">Produits</a></li>
+        <li><a href="#about" class="nav-link" data-i18n-en="About">À propos</a></li>
+        <li><a href="#partenaires" class="nav-link" data-i18n-en="Partners">Partenaires</a></li>
+        <li><a href="#contact" class="nav-link nav-cta" data-i18n-en="Contact Us">Contactez-nous</a></li>
       </ul>
-
+      <div class="lang-toggle">
+        <button class="lang-btn active" data-lang="fr">FR</button>
+        <button class="lang-btn" data-lang="en">EN</button>
+      </div>
       <button class="nav-toggle" id="navToggle" aria-label="Menu">
         <span></span><span></span><span></span>
       </button>
@@ -46,35 +50,38 @@
     <div class="hero-content">
       <div class="hero-badge reveal">
         <span class="badge-dot"></span>
-        Spécialiste en Télécommunications · Cameroun
+        <span data-i18n-en="Telecommunications Specialist &middot; Cameroon">Spécialiste en Télécommunications &middot;
+          Cameroun</span>
       </div>
-      <h1 class="hero-title reveal">
+      <h1 class="hero-title reveal"
+        data-i18n-en="Tomorrow's&lt;br /&gt;&lt;span class=&quot;gradient-text&quot;&gt;Connected&lt;/span&gt;&lt;br /&gt;Infrastructure">
         L'Infrastructure<br />
         <span class="gradient-text">Connectée</span><br />
         de Demain
       </h1>
-      <p class="hero-subtitle reveal">
+      <p class="hero-subtitle reveal"
+        data-i18n-en="TNE designs and deploys telecom, security and network solutions for Cameroonian and African businesses.">
         TNE conçoit et déploie des solutions de télécommunications, de sécurité et de réseaux pour les entreprises
         camerounaises et africaines.
       </p>
       <div class="hero-actions reveal">
-        <a href="#services" class="btn btn-primary">Découvrir nos services</a>
-        <a href="#contact" class="btn btn-ghost">Nous contacter</a>
+        <a href="#services" class="btn btn-primary" data-i18n-en="Explore our services">Découvrir nos services</a>
+        <a href="#contact" class="btn btn-ghost" data-i18n-en="Contact us">Nous contacter</a>
       </div>
       <div class="hero-stats reveal">
         <div class="stat">
           <span class="stat-number">10+</span>
-          <span class="stat-label">Années d'expérience</span>
+          <span class="stat-label" data-i18n-en="Years of experience">Années d'expérience</span>
         </div>
         <div class="stat-divider"></div>
         <div class="stat">
           <span class="stat-number">200+</span>
-          <span class="stat-label">Projets réalisés</span>
+          <span class="stat-label" data-i18n-en="Projects completed">Projets réalisés</span>
         </div>
         <div class="stat-divider"></div>
         <div class="stat">
           <span class="stat-number">4</span>
-          <span class="stat-label">Partenaires internationaux</span>
+          <span class="stat-label" data-i18n-en="International partners">Partenaires internationaux</span>
         </div>
       </div>
     </div>
@@ -87,9 +94,12 @@
   <section class="section" id="services">
     <div class="container">
       <div class="section-header reveal">
-        <span class="section-tag">Ce que nous faisons</span>
-        <h2 class="section-title">Nos <span class="gradient-text">Services</span></h2>
-        <p class="section-desc">Des solutions intégrées pour sécuriser, connecter et optimiser vos infrastructures.</p>
+        <span class="section-tag" data-i18n-en="What we do">Ce que nous faisons</span>
+        <h2 class="section-title" data-i18n-en='Our <span class="gradient-text">Services</span>'>Nos <span
+            class="gradient-text">Services</span></h2>
+        <p class="section-desc"
+          data-i18n-en="Integrated solutions to secure, connect and optimize your infrastructure.">Des solutions
+          intégrées pour sécuriser, connecter et optimiser vos infrastructures.</p>
       </div>
 
       <div class="services-grid">
@@ -100,12 +110,15 @@
               <path d="M19.5 10c0 7.142-7.5 11.25-7.5 11.25S4.5 17.142 4.5 10a7.5 7.5 0 1 1 15 0z" />
             </svg>
           </div>
-          <h3>Vidéo Surveillance</h3>
-          <p>Systèmes CCTV haute définition, caméras IP, enregistrement cloud et gestion centralisée pour sécuriser vos
+          <h3 data-i18n-en="Video Surveillance">Vidéo Surveillance</h3>
+          <p
+            data-i18n-en="High-definition CCTV, IP cameras, cloud recording and centralized management to secure your sites.">
+            Systèmes CCTV haute définition, caméras IP, enregistrement cloud et gestion centralisée pour sécuriser vos
             sites.</p>
           <div class="card-footer">
-            <span class="card-tag">Sécurité</span>
-            <a href="pages/services/video-surveillance.html" class="card-link">En savoir plus →</a>
+            <span class="card-tag" data-i18n-en="Security">Sécurité</span>
+            <a href="pages/services/video-surveillance.html" class="card-link" data-i18n-en="Learn more →">En savoir
+              plus →</a>
           </div>
         </div>
 
@@ -116,12 +129,15 @@
               <path d="M7 11V7a5 5 0 0 1 10 0v4" />
             </svg>
           </div>
-          <h3>Contrôle d'Accès</h3>
-          <p>Solutions de contrôle d'accès biométrique, badges et lecteurs RFID pour adapter finement votre niveau de
+          <h3 data-i18n-en="Access Control">Contrôle d'Accès</h3>
+          <p
+            data-i18n-en="Biometric access control, badge and RFID reader solutions to precisely manage your security levels.">
+            Solutions de contrôle d'accès biométrique, badges et lecteurs RFID pour adapter finement votre niveau de
             sécurité.</p>
           <div class="card-footer">
-            <span class="card-tag">Sécurité</span>
-            <a href="pages/services/controle-acces.html" class="card-link">En savoir plus →</a>
+            <span class="card-tag" data-i18n-en="Security">Sécurité</span>
+            <a href="pages/services/controle-acces.html" class="card-link" data-i18n-en="Learn more →">En savoir plus
+              →</a>
           </div>
         </div>
 
@@ -132,12 +148,14 @@
                 d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.15 13.5 19.79 19.79 0 0 1 2 4.82 2 2 0 0 1 3.98 2.63h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z" />
             </svg>
           </div>
-          <h3>Téléphonie IP</h3>
-          <p>Appels internationaux à coûts réduits, indépendants des opérateurs locaux. Déploiement de PABX IP et
-            softphones.</p>
+          <h3 data-i18n-en="IP Telephony">Téléphonie IP</h3>
+          <p data-i18n-en="International calls at reduced costs. Deployment of IP PBX and softphones.">Appels
+            internationaux à coûts réduits, indépendants des opérateurs locaux. Déploiement de PABX IP et softphones.
+          </p>
           <div class="card-footer">
-            <span class="card-tag">Télécom</span>
-            <a href="pages/services/telephonie-ip.html" class="card-link">En savoir plus →</a>
+            <span class="card-tag" data-i18n-en="Telecom">Télécom</span>
+            <a href="pages/services/telephonie-ip.html" class="card-link" data-i18n-en="Learn more →">En savoir plus
+              →</a>
           </div>
         </div>
 
@@ -150,12 +168,14 @@
               <path d="M16 3.13a4 4 0 0 1 0 7.75" />
             </svg>
           </div>
-          <h3>Téléconférence</h3>
-          <p>Solutions de visioconférence et collaboration à distance fiables, élégantes et faciles d'utilisation pour
+          <h3 data-i18n-en="Teleconference">Téléconférence</h3>
+          <p data-i18n-en="Reliable, elegant video conferencing and remote collaboration solutions for your teams.">
+            Solutions de visioconférence et collaboration à distance fiables, élégantes et faciles d'utilisation pour
             vos équipes.</p>
           <div class="card-footer">
-            <span class="card-tag">Télécom</span>
-            <a href="pages/services/teleconference.html" class="card-link">En savoir plus →</a>
+            <span class="card-tag" data-i18n-en="Telecom">Télécom</span>
+            <a href="pages/services/teleconference.html" class="card-link" data-i18n-en="Learn more →">En savoir plus
+              →</a>
           </div>
         </div>
 
@@ -168,12 +188,14 @@
               <path d="M6 12h12" />
             </svg>
           </div>
-          <h3>Réseaux & Systèmes</h3>
-          <p>Conception, déploiement et maintenance d'infrastructures réseau LAN/WAN, Wi-Fi entreprise, et
-            administration systèmes.</p>
+          <h3 data-i18n-en="Networks &amp; Systems">Réseaux & Systèmes</h3>
+          <p data-i18n-en="Design, deployment and maintenance of LAN/WAN, enterprise Wi-Fi and systems administration.">
+            Conception, déploiement et maintenance d'infrastructures réseau LAN/WAN, Wi-Fi entreprise, et administration
+            systèmes.</p>
           <div class="card-footer">
-            <span class="card-tag">Réseau</span>
-            <a href="pages/services/reseaux-systemes.html" class="card-link">En savoir plus →</a>
+            <span class="card-tag" data-i18n-en="Network">Réseau</span>
+            <a href="pages/services/reseaux-systemes.html" class="card-link" data-i18n-en="Learn more →">En savoir plus
+              →</a>
           </div>
         </div>
 
@@ -184,12 +206,13 @@
               <path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z" />
             </svg>
           </div>
-          <h3>Formations</h3>
-          <p>Programmes de formation certifiants en réseaux, cybersécurité et télécommunications pour vos équipes IT.
-          </p>
+          <h3 data-i18n-en="Training">Formations</h3>
+          <p
+            data-i18n-en="Certified training programs in networking, cybersecurity and telecommunications for your IT teams.">
+            Programmes de formation certifiants en réseaux, cybersécurité et télécommunications pour vos équipes IT.</p>
           <div class="card-footer">
-            <span class="card-tag">Formation</span>
-            <a href="pages/services/formations.html" class="card-link">En savoir plus →</a>
+            <span class="card-tag" data-i18n-en="Training">Formation</span>
+            <a href="pages/services/formations.html" class="card-link" data-i18n-en="Learn more →">En savoir plus →</a>
           </div>
         </div>
       </div>
@@ -200,10 +223,12 @@
   <section class="section section-alt" id="produits">
     <div class="container">
       <div class="section-header reveal">
-        <span class="section-tag">Matériel professionnel</span>
-        <h2 class="section-title">Nos <span class="gradient-text">Produits</span></h2>
-        <p class="section-desc">Équipements de marques reconnues, sélectionnés pour leur fiabilité et leurs
-          performances.</p>
+        <span class="section-tag" data-i18n-en="Professional equipment">Matériel professionnel</span>
+        <h2 class="section-title" data-i18n-en='Our <span class="gradient-text">Products</span>'>Nos <span
+            class="gradient-text">Produits</span></h2>
+        <p class="section-desc"
+          data-i18n-en="Equipment from recognized brands, selected for reliability and performance.">Équipements de
+          marques reconnues, sélectionnés pour leur fiabilité et leurs performances.</p>
       </div>
 
       <div class="products-grid">
@@ -215,8 +240,9 @@
                 d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42" />
             </svg>
           </div>
-          <h4>Caméras</h4>
-          <p>IP, dôme, bullet, PTZ — intérieur &amp; extérieur</p>
+          <h4 data-i18n-en="Cameras">Caméras</h4>
+          <p data-i18n-en="IP, dome, bullet, PTZ — indoor &amp; outdoor">IP, dôme, bullet, PTZ — intérieur &amp;
+            extérieur</p>
         </a>
 
         <a class="product-card reveal" data-delay="100" href="pages/produits/switch-routeur.html">
@@ -228,8 +254,8 @@
               <line x1="6" y1="18" x2="6.01" y2="18" />
             </svg>
           </div>
-          <h4>Switch / Routeur</h4>
-          <p>Managed &amp; unmanaged, PoE, fibre optique</p>
+          <h4 data-i18n-en="Switch / Router">Switch / Routeur</h4>
+          <p data-i18n-en="Managed &amp; unmanaged, PoE, fiber optic">Managed &amp; unmanaged, PoE, fibre optique</p>
         </a>
 
         <a class="product-card reveal" data-delay="200" href="pages/produits/panneaux-solaires.html">
@@ -240,8 +266,8 @@
               <path d="M2 12l10 5 10-5" />
             </svg>
           </div>
-          <h4>Panneaux Solaires</h4>
-          <p>Alimentations solaires pour sites off-grid</p>
+          <h4 data-i18n-en="Solar Panels">Panneaux Solaires</h4>
+          <p data-i18n-en="Solar power solutions for off-grid sites">Alimentations solaires pour sites off-grid</p>
         </a>
 
         <a class="product-card reveal" data-delay="0" href="pages/produits/batteries.html">
@@ -252,8 +278,9 @@
               <line x1="9" y1="18" x2="15" y2="18" />
             </svg>
           </div>
-          <h4>Batteries</h4>
-          <p>UPS et batteries de secours pour infrastructures critiques</p>
+          <h4 data-i18n-en="Batteries">Batteries</h4>
+          <p data-i18n-en="UPS and backup batteries for critical infrastructure">UPS et batteries de secours pour
+            infrastructures critiques</p>
         </a>
 
         <a class="product-card reveal" data-delay="100" href="pages/produits/telephones-ip.html">
@@ -264,8 +291,9 @@
               <rect x="14" y="2" width="8" height="6" rx="1" />
             </svg>
           </div>
-          <h4>Téléphones IP</h4>
-          <p>Postes de bureau IP Innovaphone, Cisco, Yealink</p>
+          <h4 data-i18n-en="IP Phones">Téléphones IP</h4>
+          <p data-i18n-en="Desktop IP phones from Innovaphone, Cisco, Yealink">Postes de bureau IP Innovaphone, Cisco,
+            Yealink</p>
         </a>
 
         <a class="product-card reveal" data-delay="200" href="pages/produits/pointeuses.html">
@@ -275,8 +303,9 @@
               <path d="M8 4v16M16 4v16M2 12h20" />
             </svg>
           </div>
-          <h4>Pointeuses</h4>
-          <p>Terminaux biométriques empreinte digitale &amp; carte</p>
+          <h4 data-i18n-en="Time Clocks">Pointeuses</h4>
+          <p data-i18n-en="Biometric fingerprint &amp; card terminals">Terminaux biométriques empreinte digitale &amp;
+            carte</p>
         </a>
       </div>
     </div>
@@ -287,19 +316,25 @@
     <div class="container">
       <div class="about-layout">
         <div class="about-text reveal">
-          <span class="section-tag">Qui sommes-nous</span>
-          <h2 class="section-title">Une équipe d'experts<br /><span class="gradient-text">passionnés</span></h2>
-          <p>TNE est formé d'une équipe jeune, dynamique, expérimentée et passionnée par les nouvelles technologies. Le
+          <span class="section-tag" data-i18n-en="Who we are">Qui sommes-nous</span>
+          <h2 class="section-title"
+            data-i18n-en='A team of passionate&lt;br /&gt;&lt;span class="gradient-text"&gt;experts&lt;/span&gt;'>Une
+            équipe d'experts<br /><span class="gradient-text">passionnés</span></h2>
+          <p
+            data-i18n-en="TNE is made up of a young, dynamic, experienced and technology-passionate team. The Group relies on permanent engineers and specialized technicians, engaged based on each project's requirements.">
+            TNE est formé d'une équipe jeune, dynamique, expérimentée et passionnée par les nouvelles technologies. Le
             Groupe s'appuie sur un panel d'ingénieurs permanents et des techniciens spécialisés, engagés selon la nature
             et les exigences de chaque projet.</p>
-          <p>Notre philosophie du <em>«Make it Clear»</em> reflète notre engagement à fournir des solutions simples,
+          <p
+            data-i18n-en='Our &lt;em&gt;"Make it Clear"&lt;/em&gt; philosophy reflects our commitment to delivering simple, robust and effective solutions, maintaining control over every step of production.'>
+            Notre philosophie du <em>«Make it Clear»</em> reflète notre engagement à fournir des solutions simples,
             robustes et efficaces, en gardant le contrôle sur toutes les étapes de la production.</p>
           <div class="about-values">
             <div class="value-item">
               <span class="value-icon">⚡</span>
               <div>
                 <strong>Innovation</strong>
-                <span>Technologies de pointe</span>
+                <span data-i18n-en="Cutting-edge technologies">Technologies de pointe</span>
               </div>
             </div>
             <div class="value-item">
@@ -313,7 +348,7 @@
               <span class="value-icon">🛡️</span>
               <div>
                 <strong>Fiabilité</strong>
-                <span>Support sans failles</span>
+                <span data-i18n-en="Flawless support">Support sans failles</span>
               </div>
             </div>
           </div>
@@ -326,7 +361,7 @@
             </div>
             <div class="team-info">
               <strong>OKELANK Francis</strong>
-              <span>Directeur Général</span>
+              <span data-i18n-en="General Manager">Directeur Général</span>
             </div>
           </div>
           <div class="team-card">
@@ -335,7 +370,7 @@
             </div>
             <div class="team-info">
               <strong>EPESSE NDOUMBE</strong>
-              <span>Directeur Administratif</span>
+              <span data-i18n-en="Administrative Director">Directeur Administratif</span>
             </div>
           </div>
           <div class="team-card">
@@ -344,7 +379,7 @@
             </div>
             <div class="team-info">
               <strong>MBELLA EBONGUE</strong>
-              <span>Chef de Projet</span>
+              <span data-i18n-en="Project Manager">Chef de Projet</span>
             </div>
           </div>
           <div class="team-card">
@@ -353,7 +388,7 @@
             </div>
             <div class="team-info">
               <strong>LOBE EPESSE Alain</strong>
-              <span>Directeur Technique</span>
+              <span data-i18n-en="Technical Director">Directeur Technique</span>
             </div>
           </div>
         </div>
@@ -365,34 +400,44 @@
   <section class="section section-alt" id="partenaires">
     <div class="container">
       <div class="section-header reveal">
-        <span class="section-tag">Ils nous font confiance</span>
-        <h2 class="section-title">Nos <span class="gradient-text">Partenaires</span></h2>
-        <p class="section-desc">TNE s'appuie sur des partenaires internationaux reconnus pour vous offrir les meilleures
-          solutions du marché.</p>
+        <span class="section-tag" data-i18n-en="They trust us">Ils nous font confiance</span>
+        <h2 class="section-title" data-i18n-en='Our <span class="gradient-text">Partners</span>'>Nos <span
+            class="gradient-text">Partenaires</span></h2>
+        <p class="section-desc"
+          data-i18n-en="TNE works with recognized international partners to offer you the best solutions on the market.">
+          TNE s'appuie sur des partenaires internationaux reconnus pour vous offrir les meilleures solutions du marché.
+        </p>
       </div>
 
       <div class="partners-grid">
         <div class="partner-card reveal" data-delay="0">
           <div class="partner-logo">iP</div>
           <h4>InnovaPhone AG</h4>
-          <p>Solution professionnelle tout-en-un pour la communication d'entreprise. Solutions évolutives et innovantes
+          <p
+            data-i18n-en="All-in-one professional solution for corporate communication. Scalable and innovative IP telephony solutions.">
+            Solution professionnelle tout-en-un pour la communication d'entreprise. Solutions évolutives et innovantes
             en téléphonie IP.</p>
         </div>
         <div class="partner-card reveal" data-delay="100">
           <div class="partner-logo">Sm</div>
           <h4>Simidebis</h4>
-          <p>Multinationale avec une vaste expérience dans la fourniture de solutions de bout en bout en technologies
+          <p
+            data-i18n-en="Multinational with extensive experience in providing end-to-end telecom technology solutions.">
+            Multinationale avec une vaste expérience dans la fourniture de solutions de bout en bout en technologies
             télécoms.</p>
         </div>
         <div class="partner-card reveal" data-delay="200">
           <div class="partner-logo">Ca</div>
           <h4>Camusat</h4>
-          <p>Acteur majeur du déploiement de réseaux de télécommunications. Experts en conception d'infrastructures.</p>
+          <p data-i18n-en="Major player in telecommunications network deployment. Experts in infrastructure design.">
+            Acteur majeur du déploiement de réseaux de télécommunications. Experts en conception d'infrastructures.</p>
         </div>
         <div class="partner-card reveal" data-delay="300">
           <div class="partner-logo">Lp</div>
           <h4>Laplace Technologies</h4>
-          <p>Société d'ingénierie en télécommunications spécialisée dans la conception de solutions réseau avancées.</p>
+          <p
+            data-i18n-en="Telecommunications engineering company specializing in the design of advanced network solutions.">
+            Société d'ingénierie en télécommunications spécialisée dans la conception de solutions réseau avancées.</p>
         </div>
       </div>
     </div>
@@ -402,9 +447,11 @@
   <section class="section" id="contact">
     <div class="container">
       <div class="section-header reveal">
-        <span class="section-tag">Travaillons ensemble</span>
-        <h2 class="section-title">Nous <span class="gradient-text">Contacter</span></h2>
-        <p class="section-desc">Un projet ? Une question ? Nos experts sont disponibles pour vous accompagner.</p>
+        <span class="section-tag" data-i18n-en="Let's work together">Travaillons ensemble</span>
+        <h2 class="section-title" data-i18n-en='<span class="gradient-text">Contact</span> Us'>Nous <span
+            class="gradient-text">Contacter</span></h2>
+        <p class="section-desc" data-i18n-en="A project? A question? Our experts are available to help you.">Un projet ?
+          Une question ? Nos experts sont disponibles pour vous accompagner.</p>
       </div>
 
       <div class="contact-layout">
@@ -417,8 +464,8 @@
               </svg>
             </div>
             <div>
-              <strong>Bureau Principal</strong>
-              <span>BP 114 Akwa-Douala, Cameroun</span>
+              <strong data-i18n-en="Main Office">Bureau Principal</strong>
+              <span data-i18n-en="BP 114 Akwa-Douala, Cameroon">BP 114 Akwa-Douala, Cameroun</span>
             </div>
           </div>
           <div class="info-card">
@@ -429,9 +476,9 @@
               </svg>
             </div>
             <div>
-              <strong>Téléphone</strong>
+              <strong data-i18n-en="Phone">Téléphone</strong>
               <span>+237 233 426 625</span>
-              <span>Hotline : +237 696 373 029</span>
+              <span data-i18n-en="Hotline: +237 696 373 029">Hotline : +237 696 373 029</span>
             </div>
           </div>
           <div class="info-card">
@@ -451,32 +498,33 @@
         <form class="contact-form reveal" id="contactForm">
           <div class="form-row">
             <div class="form-group">
-              <label for="nom">Nom complet</label>
-              <input type="text" id="nom" name="nom" placeholder="Jean Dupont" required />
+              <label for="nom" data-i18n-en="Full name">Nom complet</label>
+              <input type="text" id="nom" name="nom" placeholder="Jean Dupont" data-i18n-ph-en="John Doe" required />
             </div>
             <div class="form-group">
               <label for="email">Email</label>
-              <input type="email" id="email" name="email" placeholder="jean@entreprise.cm" required />
+              <input type="email" id="email" name="email" placeholder="jean@entreprise.cm"
+                data-i18n-ph-en="john@company.com" required />
             </div>
           </div>
           <div class="form-group">
-            <label for="sujet">Sujet</label>
+            <label for="sujet" data-i18n-en="Subject">Sujet</label>
             <select id="sujet" name="sujet">
-              <option value="">Sélectionnez un sujet</option>
-              <option>Vidéo Surveillance</option>
-              <option>Contrôle d'accès</option>
-              <option>Téléphonie IP</option>
-              <option>Réseaux & Systèmes</option>
-              <option>Formation</option>
-              <option>Autre</option>
+              <option value="" data-i18n-en="Select a subject">Sélectionnez un sujet</option>
+              <option data-i18n-en="Video Surveillance">Vidéo Surveillance</option>
+              <option data-i18n-en="Access Control">Contrôle d'accès</option>
+              <option data-i18n-en="IP Telephony">Téléphonie IP</option>
+              <option data-i18n-en="Networks &amp; Systems">Réseaux & Systèmes</option>
+              <option data-i18n-en="Training">Formation</option>
+              <option data-i18n-en="Other">Autre</option>
             </select>
           </div>
           <div class="form-group">
-            <label for="message">Message</label>
-            <textarea id="message" name="message" rows="5"
-              placeholder="Décrivez votre projet ou votre besoin..."></textarea>
+            <label for="message" data-i18n-en="Message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Décrivez votre projet ou votre besoin..."
+              data-i18n-ph-en="Describe your project or need..."></textarea>
           </div>
-          <button type="submit" class="btn btn-primary btn-full">
+          <button type="submit" class="btn btn-primary btn-full" data-i18n-en="Send message">
             Envoyer le message
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
               <line x1="22" y1="2" x2="11" y2="13" />
@@ -496,7 +544,8 @@
           <a href="#accueil" class="nav-logo footer-logo">
             <img src="images/logo.png" alt="TNE" class="logo-img footer-logo-img" />
           </a>
-          <p>Votre partenaire de confiance en télécommunications et ingénierie réseau depuis plus de 10 ans.</p>
+          <p data-i18n-en="Your trusted partner in telecommunications and network engineering for over 10 years.">Votre
+            partenaire de confiance en télécommunications et ingénierie réseau depuis plus de 10 ans.</p>
           <div class="footer-socials">
             <a href="mailto:infos@tne-cm.com" aria-label="Email" class="social-icon">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
@@ -508,38 +557,41 @@
         </div>
 
         <div class="footer-col">
-          <h5>Services</h5>
+          <h5 data-i18n-en="Services">Services</h5>
           <ul>
-            <li><a href="pages/services/video-surveillance.html">Vidéo Surveillance</a></li>
-            <li><a href="pages/services/controle-acces.html">Contrôle d'accès</a></li>
-            <li><a href="pages/services/telephonie-ip.html">Téléphonie IP</a></li>
-            <li><a href="pages/services/teleconference.html">Téléconférence</a></li>
-            <li><a href="pages/services/reseaux-systemes.html">Réseaux &amp; Systèmes</a></li>
-            <li><a href="pages/services/formations.html">Formations</a></li>
+            <li><a href="pages/services/video-surveillance.html" data-i18n-en="Video Surveillance">Vidéo
+                Surveillance</a></li>
+            <li><a href="pages/services/controle-acces.html" data-i18n-en="Access Control">Contrôle d'accès</a></li>
+            <li><a href="pages/services/telephonie-ip.html" data-i18n-en="IP Telephony">Téléphonie IP</a></li>
+            <li><a href="pages/services/teleconference.html" data-i18n-en="Teleconference">Téléconférence</a></li>
+            <li><a href="pages/services/reseaux-systemes.html" data-i18n-en="Networks &amp; Systems">Réseaux &amp;
+                Systèmes</a></li>
+            <li><a href="pages/services/formations.html" data-i18n-en="Training">Formations</a></li>
           </ul>
         </div>
 
         <div class="footer-col">
-          <h5>Produits</h5>
+          <h5 data-i18n-en="Products">Produits</h5>
           <ul>
-            <li><a href="pages/produits/cameras.html">Caméras</a></li>
-            <li><a href="pages/produits/switch-routeur.html">Switch / Routeur</a></li>
-            <li><a href="pages/produits/panneaux-solaires.html">Panneaux Solaires</a></li>
-            <li><a href="pages/produits/batteries.html">Batteries</a></li>
-            <li><a href="pages/produits/telephones-ip.html">Téléphones IP</a></li>
-            <li><a href="pages/produits/pointeuses.html">Pointeuses</a></li>
+            <li><a href="pages/produits/cameras.html" data-i18n-en="Cameras">Caméras</a></li>
+            <li><a href="pages/produits/switch-routeur.html" data-i18n-en="Switch / Router">Switch / Routeur</a></li>
+            <li><a href="pages/produits/panneaux-solaires.html" data-i18n-en="Solar Panels">Panneaux Solaires</a></li>
+            <li><a href="pages/produits/batteries.html" data-i18n-en="Batteries">Batteries</a></li>
+            <li><a href="pages/produits/telephones-ip.html" data-i18n-en="IP Phones">Téléphones IP</a></li>
+            <li><a href="pages/produits/pointeuses.html" data-i18n-en="Time Clocks">Pointeuses</a></li>
           </ul>
         </div>
 
         <div class="footer-col">
-          <h5>Newsletter</h5>
-          <p>Restez informé des dernières actualités télécoms.</p>
+          <h5 data-i18n-en="Newsletter">Newsletter</h5>
+          <p data-i18n-en="Stay informed about the latest telecom news.">Restez informé des dernières actualités
+            télécoms.</p>
           <div class="newsletter">
             <input type="email" placeholder="votre@email.com" />
             <button class="btn-newsletter">→</button>
           </div>
           <div class="footer-contact">
-            <span>📍 BP 114 Akwa-Douala</span>
+            <span data-i18n-en="📍 BP 114 Akwa-Douala">📍 BP 114 Akwa-Douala</span>
             <span>📞 +237 233 426 625</span>
             <span>✉️ infos@tne-cm.com</span>
           </div>
@@ -547,8 +599,9 @@
       </div>
 
       <div class="footer-bottom">
-        <span>© 2024 TNE — Telecoms & Network Engineering. Tous droits réservés.</span>
-        <span>Douala, Cameroun</span>
+        <span data-i18n-en="&copy; 2024 TNE &mdash; Telecoms &amp; Network Engineering. All rights reserved.">&copy;
+          2024 TNE — Telecoms & Network Engineering. Tous droits réservés.</span>
+        <span data-i18n-en="Douala, Cameroon">Douala, Cameroun</span>
       </div>
     </div>
   </footer>
