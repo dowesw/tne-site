@@ -123,20 +123,75 @@ const activeStyle = document.createElement('style');
 activeStyle.textContent = `.nav-link.active { color: var(--accent) !important; }`;
 document.head.appendChild(activeStyle);
 
-// ─── Contact Form ───────────────────────────────────
+// ─── Contact Form — Web3Forms ──────────────────────────
+const WEB3FORMS_KEY = '3b9792cf-1439-4031-8ce6-fe5013b43b86';
+
 const form = document.getElementById('contactForm');
 if (form) {
-  form.addEventListener('submit', (e) => {
+  const submitBtn = document.getElementById('submitBtn');
+  const btnText = document.getElementById('btnText');
+  const btnSpinner = document.getElementById('btnSpinner');
+  const feedback = document.getElementById('formFeedback');
+
+  const MSG = {
+    sending: { fr: 'Envoi en cours…', en: 'Sending…' },
+    success: {
+      fr: '✅ Votre message a été envoyé ! Nous vous répondrons dans les plus brefs délais.',
+      en: '✅ Your message has been sent! We will get back to you shortly.'
+    },
+    error: {
+      fr: '❌ Une erreur est survenue. Veuillez réessayer ou écrire directement à contact@tne-cm.com',
+      en: '❌ Something went wrong. Please try again or email contact@tne-cm.com directly.'
+    }
+  };
+
+  function getLang() {
+    return localStorage.getItem('tne-lang') === 'en' ? 'en' : 'fr';
+  }
+
+  function showFeedback(type, msg) {
+    feedback.textContent = msg;
+    feedback.style.display = 'block';
+    feedback.style.background = type === 'success'
+      ? 'rgba(30,140,58,.18)'
+      : 'rgba(220,38,38,.18)';
+    feedback.style.color = type === 'success' ? '#4ade80' : '#f87171';
+    feedback.style.border = '1px solid ' + (type === 'success' ? '#1e8c3a55' : '#dc262655');
+  }
+
+  form.addEventListener('submit', async (e) => {
     e.preventDefault();
-    const btn = form.querySelector('button[type="submit"]');
-    btn.textContent = '✓ Message envoyé !';
-    btn.style.background = 'linear-gradient(135deg, #1e8c3a, #2ecc71)';
-    btn.disabled = true;
-    setTimeout(() => {
-      btn.innerHTML = 'Envoyer le message <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:20px;height:20px"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>';
-      btn.style.background = '';
-      btn.disabled = false;
-      form.reset();
-    }, 3000);
+    const lang = getLang();
+
+    // Loading state
+    submitBtn.disabled = true;
+    btnText.style.display = 'none';
+    btnSpinner.style.display = 'inline';
+    feedback.style.display = 'none';
+
+    try {
+      const data = Object.fromEntries(new FormData(form));
+      data.access_key = WEB3FORMS_KEY;
+      const res = await fetch('https://api.web3forms.com/submit', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
+        body: JSON.stringify(data)
+      });
+      const json = await res.json();
+
+      if (res.ok && json.success) {
+        showFeedback('success', MSG.success[lang]);
+        form.reset();
+        setTimeout(() => { feedback.style.display = 'none'; }, 6000);
+      } else {
+        throw new Error(json.message || 'Server error');
+      }
+    } catch {
+      showFeedback('error', MSG.error[lang]);
+    } finally {
+      submitBtn.disabled = false;
+      btnText.style.display = 'inline';
+      btnSpinner.style.display = 'none';
+    }
   });
 }

@@ -524,13 +524,23 @@
             <textarea id="message" name="message" rows="5" placeholder="Décrivez votre projet ou votre besoin..."
               data-i18n-ph-en="Describe your project or need..."></textarea>
           </div>
-          <button type="submit" class="btn btn-primary btn-full" data-i18n-en="Send message">
-            Envoyer le message
+          <!-- Web3Forms hidden fields — access_key injecté par main.js -->
+          <input type="hidden" name="subject" value="[TNE Site] Nouveau message de contact" />
+          <input type="hidden" name="from_name" value="TNE Website" />
+          <input type="checkbox" name="botcheck" style="display:none" tabindex="-1" />
+
+          <button type="submit" id="submitBtn" class="btn btn-primary btn-full" data-i18n-en="Send message">
+            <span id="btnText">Envoyer le message</span>
+            <span id="btnSpinner" style="display:none">&#8987; Envoi en cours&hellip;</span>
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
               <line x1="22" y1="2" x2="11" y2="13" />
               <polygon points="22 2 15 22 11 13 2 9 22 2" />
             </svg>
           </button>
+
+          <div id="formFeedback"
+            style="display:none;margin-top:16px;padding:14px 20px;border-radius:10px;font-weight:500;font-size:.95rem">
+          </div>
         </form>
       </div>
     </div>
