@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 480" role="img" aria-labelledby="t d">
+  <title id="t">Deploiement de fibre optique FTTx</title>
+  <desc id="d">Un technicien africain a peau noire raccorde des fibres optiques colorees sur un poteau de distribution.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0d1630"/>
+      <stop offset="1" stop-color="#070c1a"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.4" cy="0.3" r="0.55">
+      <stop offset="0" stop-color="#1e8c3a" stop-opacity="0.2"/>
+      <stop offset="1" stop-color="#1e8c3a" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="fiber1" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#2ecc71"/>
+      <stop offset="1" stop-color="#3498db"/>
+    </linearGradient>
+    <linearGradient id="fiber2" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#f39c12"/>
+      <stop offset="1" stop-color="#e74c3c"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="480" fill="url(#bg)"/>
+  <rect width="1200" height="480" fill="url(#glow)"/>
+  <circle cx="1100" cy="100" r="140" fill="#2ecc71" opacity="0.05"/>
+  <g fill="#e8edf5" opacity="0.25">
+    <circle cx="140" cy="70" r="2"/><circle cx="560" cy="50" r="1.8"/><circle cx="900" cy="60" r="2"/>
+    <circle cx="1060" cy="150" r="1.6"/><circle cx="320" cy="46" r="1.6"/>
+  </g>
+
+  <!-- sol -->
+  <rect x="0" y="408" width="1200" height="72" fill="#0a1128"/>
+  <rect x="0" y="408" width="1200" height="3" fill="#1e8c3a" opacity="0.5"/>
+
+  <!-- poteau et boitier de distribution -->
+  <rect x="300" y="60" width="18" height="348" rx="6" fill="#3d4b63"/>
+  <rect x="270" y="80" width="78" height="10" rx="4" fill="#2a3550"/>
+  <rect x="256" y="120" width="106" height="90" rx="10" fill="#16223f" stroke="#2a3550" stroke-width="4"/>
+  <rect x="268" y="134" width="82" height="12" rx="6" fill="#0a1128"/>
+  <circle cx="276" cy="164" r="5" fill="#2ecc71"/>
+  <circle cx="292" cy="164" r="5" fill="#3498db"/>
+  <circle cx="308" cy="164" r="5" fill="#f39c12"/>
+  <circle cx="324" cy="164" r="5" fill="#e74c3c"/>
+  <circle cx="340" cy="164" r="5" fill="#9b59b6"/>
+  <g stroke="#3d4b63" stroke-width="3" stroke-linecap="round">
+    <line x1="276" y1="182" x2="276" y2="196"/>
+    <line x1="292" y1="182" x2="292" y2="196"/>
+    <line x1="308" y1="182" x2="308" y2="196"/>
+    <line x1="324" y1="182" x2="324" y2="196"/>
+    <line x1="340" y1="182" x2="340" y2="196"/>
+  </g>
+
+  <!-- fibres optiques lumineuses -->
+  <g fill="none" stroke-linecap="round">
+    <path d="M360 150 C 520 90, 700 120, 880 70" stroke="url(#fiber1)" stroke-width="5" opacity="0.95"/>
+    <path d="M360 170 C 540 150, 720 190, 920 130" stroke="#2ecc71" stroke-width="4" opacity="0.8"/>
+    <path d="M360 190 C 540 210, 740 250, 960 200" stroke="url(#fiber2)" stroke-width="4" opacity="0.85"/>
+    <path d="M300 100 C 200 60, 120 90, 60 60" stroke="#3498db" stroke-width="4" opacity="0.6"/>
+  </g>
+  <g fill="#2ecc71">
+    <circle cx="520" cy="106" r="4"/>
+    <circle cx="700" cy="114" r="4"/>
+    <circle cx="880" cy="70" r="5"/>
+    <circle cx="620" cy="168" r="3.5" opacity="0.8"/>
+    <circle cx="960" cy="200" r="4" fill="#f39c12"/>
+  </g>
+
+  <!-- maison connectee -->
+  <g transform="translate(1000,240)">
+    <rect x="0" y="40" width="150" height="128" fill="#16223f" stroke="#2a3550" stroke-width="4"/>
+    <polygon points="-14,40 75,-12 164,40" fill="#2a3550"/>
+    <rect x="20" y="70" width="34" height="30" rx="3" fill="#f1c40f" opacity="0.85"/>
+    <line x1="37" y1="70" x2="37" y2="100" stroke="#2a3550" stroke-width="3"/>
+    <line x1="20" y1="85" x2="54" y2="85" stroke="#2a3550" stroke-width="3"/>
+    <rect x="96" y="90" width="34" height="78" rx="3" fill="#1e8c3a"/>
+    <circle cx="124" cy="130" r="3" fill="#f1c40f"/>
+    <rect x="60" y="20" width="30" height="22" rx="3" fill="#0a1128" stroke="#2ecc71" stroke-width="2"/>
+    <circle cx="75" cy="31" r="4" fill="#2ecc71"/>
+  </g>
+
+  <!-- technicien qui soude les fibres -->
+  <ellipse cx="500" cy="412" rx="70" ry="9" fill="#000" opacity="0.35"/>
+  <rect x="476" y="326" width="18" height="66" fill="#22304f"/>
+  <rect x="506" y="326" width="18" height="66" fill="#22304f"/>
+  <rect x="472" y="388" width="26" height="14" rx="5" fill="#0e1526"/>
+  <rect x="502" y="388" width="26" height="14" rx="5" fill="#0e1526"/>
+  <rect x="468" y="238" width="64" height="94" rx="16" fill="#e67e22"/>
+  <rect x="468" y="268" width="64" height="9" fill="#f5f6fa" opacity="0.85"/>
+  <line x1="472" y1="252" x2="416" y2="196" stroke="#d35400" stroke-width="15" stroke-linecap="round"/>
+  <circle cx="414" cy="194" r="8" fill="#7a4a21"/>
+  <line x1="528" y1="252" x2="560" y2="306" stroke="#d35400" stroke-width="15" stroke-linecap="round"/>
+  <circle cx="562" cy="310" r="8" fill="#7a4a21"/>
+  <!-- etincelle de soudure -->
+  <g stroke="#f1c40f" stroke-width="3" stroke-linecap="round">
+    <line x1="400" y1="180" x2="388" y2="168"/>
+    <line x1="404" y1="186" x2="398" y2="170"/>
+    <line x1="396" y1="188" x2="382" y2="184"/>
+  </g>
+  <circle cx="408" cy="188" r="5" fill="#f5f6fa"/>
+  <rect x="490" y="222" width="20" height="18" fill="#5f3a1b"/>
+  <ellipse cx="500" cy="196" rx="29" ry="33" fill="#7a4a21"/>
+  <path d="M471 188 a29 26 0 0 1 58 0 Z" fill="#f39c12"/>
+  <rect x="465" y="184" width="70" height="9" rx="4.5" fill="#f39c12"/>
+  <rect x="476" y="192" width="48" height="14" rx="7" fill="#141414" opacity="0.85"/>
+  <circle cx="492" cy="212" r="2.6" fill="#141414"/>
+  <circle cx="510" cy="212" r="2.6" fill="#141414"/>
+  <path d="M493 222 Q500 227 507 222" stroke="#3d2410" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+
+  <!-- touret de cable -->
+  <g transform="translate(700,340)">
+    <circle r="46" fill="#2a3550"/>
+    <circle r="34" fill="#16223f"/>
+    <circle r="10" fill="#0a1128"/>
+    <path d="M-30 -18 a35 35 0 0 1 60 0" fill="none" stroke="#2ecc71" stroke-width="5" stroke-linecap="round"/>
+    <path d="M-34 0 a34 34 0 0 1 20 30" fill="none" stroke="#3498db" stroke-width="5" stroke-linecap="round"/>
+  </g>
+  <path d="M660 380 C 600 390, 560 360, 534 330" fill="none" stroke="#2ecc71" stroke-width="4" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 480" role="img" aria-labelledby="t d">
+  <title id="t">Controle d'acces biometrique en entreprise</title>
+  <desc id="d">Un professionnel africain a peau noire badge devant un lecteur de controle d'acces pres d'une porte vitree.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0d1630"/>
+      <stop offset="1" stop-color="#070c1a"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.75" cy="0.35" r="0.55">
+      <stop offset="0" stop-color="#1e8c3a" stop-opacity="0.2"/>
+      <stop offset="1" stop-color="#1e8c3a" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="480" fill="url(#bg)"/>
+  <rect width="1200" height="480" fill="url(#glow)"/>
+  <circle cx="120" cy="100" r="130" fill="#2ecc71" opacity="0.05"/>
+  <circle cx="1100" cy="420" r="150" fill="#2ecc71" opacity="0.05"/>
+
+  <!-- sol -->
+  <rect x="0" y="408" width="1200" height="72" fill="#0a1128"/>
+  <rect x="0" y="408" width="1200" height="3" fill="#1e8c3a" opacity="0.5"/>
+
+  <!-- cadenas decoratif -->
+  <g transform="translate(180,110)" opacity="0.9">
+    <path d="M-18 0 v-14 a18 16 0 0 1 36 0 v14" fill="none" stroke="#2ecc71" stroke-width="6"/>
+    <rect x="-30" y="0" width="60" height="46" rx="10" fill="rgba(46,204,113,0.12)" stroke="#2ecc71" stroke-width="4"/>
+    <circle cx="0" cy="18" r="6" fill="#2ecc71"/>
+    <rect x="-3" y="18" width="6" height="14" fill="#2ecc71"/>
+  </g>
+
+  <!-- porte vitree -->
+  <rect x="760" y="90" width="320" height="318" fill="rgba(255,255,255,0.04)" stroke="#2a3550" stroke-width="8"/>
+  <line x1="800" y1="120" x2="900" y2="380" stroke="#ffffff" stroke-width="8" opacity="0.05"/>
+  <line x1="860" y1="110" x2="980" y2="390" stroke="#ffffff" stroke-width="5" opacity="0.04"/>
+  <rect x="1050" y="240" width="14" height="44" rx="7" fill="#3d4b63"/>
+  <rect x="748" y="90" width="12" height="318" fill="#16223f"/>
+  <rect x="1080" y="90" width="12" height="318" fill="#16223f"/>
+
+  <!-- lecteur de controle d'acces -->
+  <rect x="648" y="170" width="46" height="70" rx="8" fill="#16223f" stroke="#2a3550" stroke-width="3"/>
+  <rect x="655" y="178" width="32" height="22" rx="3" fill="#0a1128"/>
+  <path d="M661 189 l6 6 l11 -12" stroke="#2ecc71" stroke-width="3.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="686" cy="176" r="3" fill="#2ecc71"/>
+  <g fill="none" stroke="#4a5b7d" stroke-width="2.5" stroke-linecap="round">
+    <path d="M664 216 a7 7 0 0 1 14 0 v6"/>
+    <path d="M659 216 a12 12 0 0 1 24 0 v8"/>
+  </g>
+
+  <!-- ondes badge -->
+  <g fill="none" stroke="#2ecc71" stroke-linecap="round">
+    <path d="M628 210 a12 12 0 0 1 0 18" stroke-width="4"/>
+    <path d="M618 202 a24 24 0 0 1 0 34" stroke-width="4" opacity="0.55"/>
+  </g>
+
+  <!-- professionnel qui badge -->
+  <ellipse cx="482" cy="412" rx="72" ry="9" fill="#000" opacity="0.35"/>
+  <rect x="458" y="326" width="18" height="66" fill="#1c2742"/>
+  <rect x="488" y="326" width="18" height="66" fill="#1c2742"/>
+  <rect x="454" y="388" width="26" height="14" rx="5" fill="#0e1526"/>
+  <rect x="484" y="388" width="26" height="14" rx="5" fill="#0e1526"/>
+  <rect x="450" y="238" width="64" height="94" rx="16" fill="#2980b9"/>
+  <line x1="468" y1="240" x2="474" y2="286" stroke="#e8edf5" stroke-width="3"/>
+  <rect x="466" y="286" width="18" height="24" rx="3" fill="#ecf0f1"/>
+  <rect x="466" y="292" width="18" height="5" fill="#2ecc71"/>
+  <line x1="454" y1="252" x2="428" y2="308" stroke="#1f6391" stroke-width="15" stroke-linecap="round"/>
+  <circle cx="426" cy="312" r="8" fill="#8d5524"/>
+  <line x1="510" y1="254" x2="606" y2="226" stroke="#1f6391" stroke-width="15" stroke-linecap="round"/>
+  <circle cx="608" cy="226" r="8" fill="#8d5524"/>
+  <rect x="594" y="212" width="28" height="18" rx="3" fill="#ecf0f1"/>
+  <rect x="594" y="218" width="28" height="5" fill="#2ecc71"/>
+  <rect x="472" y="222" width="20" height="18" fill="#6b4226"/>
+  <ellipse cx="482" cy="196" rx="29" ry="33" fill="#8d5524"/>
+  <path d="M453 192 a29 30 0 0 1 58 0 l0 -8 q-29 -22 -58 0 Z" fill="#141414"/>
+  <circle cx="473" cy="198" r="2.6" fill="#141414"/>
+  <circle cx="491" cy="198" r="2.6" fill="#141414"/>
+  <path d="M474 210 Q482 216 490 210" stroke="#3d2410" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+
+  <!-- empreinte digitale decorative -->
+  <g transform="translate(1080,330)" fill="none" stroke="#2ecc71" stroke-width="3" stroke-linecap="round" opacity="0.8">
+    <path d="M-10 6 a10 10 0 0 1 20 0 v10"/>
+    <path d="M-17 6 a17 17 0 0 1 34 0 v16"/>
+    <path d="M-24 6 a24 24 0 0 1 48 0 v22"/>
+  </g>
+</svg>

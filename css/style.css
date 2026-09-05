@@ -1819,6 +1819,67 @@ ul {
 }
 .faq-item.open .faq-answer { max-height: 300px; padding: 0 24px 20px; }
 
+/* ─── Service Photo Section ───────────────────────── */
+.service-photo-section {
+  padding: 0 0 64px;
+}
+
+.service-photo-wrapper {
+  position: relative;
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  border: 1px solid var(--border);
+  box-shadow: 0 32px 80px rgba(0, 0, 0, 0.5);
+}
+
+.service-photo-img {
+  width: 100%;
+  height: 480px;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+  filter: brightness(0.85) saturate(1.1);
+}
+
+.service-photo-wrapper:hover .service-photo-img {
+  transform: scale(1.03);
+}
+
+.service-photo-caption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 48px 36px 32px;
+  background: linear-gradient(to top, rgba(7, 12, 26, 0.92) 0%, rgba(7, 12, 26, 0.5) 60%, transparent 100%);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.service-photo-tag {
+  display: inline-block;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--accent-2);
+  background: rgba(46, 204, 113, 0.15);
+  border: 1px solid rgba(46, 204, 113, 0.3);
+  padding: 5px 14px;
+  border-radius: 50px;
+  width: fit-content;
+}
+
+.service-photo-caption p {
+  font-size: 1rem;
+  color: rgba(232, 237, 245, 0.9);
+  max-width: 640px;
+  line-height: 1.6;
+  font-weight: 400;
+  margin: 0;
+}
+
 /* ─── Responsive ─────────────────────────────────── */
 @media (max-width: 1024px) {
   .why-grid { grid-template-columns: repeat(2, 1fr); }
@@ -1826,7 +1887,11 @@ ul {
   .certs-grid { grid-template-columns: repeat(2, 1fr); }
   .process-steps { grid-template-columns: repeat(2, 1fr); gap: 40px; }
   .process-steps::before { display: none; }
+  .service-photo-img { height: 360px; }
 }
 @media (max-width: 640px) {
   .why-grid, .realisations-grid, .certs-grid, .process-steps { grid-template-columns: 1fr; }
+  .service-photo-img { height: 260px; }
+  .service-photo-caption { padding: 32px 20px 20px; }
+  .service-photo-caption p { font-size: 0.875rem; }
 }

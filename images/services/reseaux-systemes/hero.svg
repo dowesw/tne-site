@@ -1,0 +1,135 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 480" role="img" aria-labelledby="t d">
+  <title id="t">Ingenieur reseau dans une salle de serveurs</title>
+  <desc id="d">Un ingenieur africain a peau noire configure des baies de serveurs avec un ordinateur portable.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0d1630"/>
+      <stop offset="1" stop-color="#070c1a"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.35" cy="0.35" r="0.55">
+      <stop offset="0" stop-color="#1e8c3a" stop-opacity="0.2"/>
+      <stop offset="1" stop-color="#1e8c3a" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="480" fill="url(#bg)"/>
+  <rect width="1200" height="480" fill="url(#glow)"/>
+  <circle cx="1050" cy="100" r="150" fill="#2ecc71" opacity="0.05"/>
+
+  <!-- sol -->
+  <rect x="0" y="408" width="1200" height="72" fill="#0a1128"/>
+  <rect x="0" y="408" width="1200" height="3" fill="#1e8c3a" opacity="0.5"/>
+
+  <!-- baies serveurs -->
+  <g>
+    <rect x="90" y="80" width="200" height="328" rx="10" fill="#101a33" stroke="#2a3550" stroke-width="4"/>
+    <g>
+      <rect x="104" y="96" width="172" height="30" rx="4" fill="#16223f"/>
+      <circle cx="118" cy="111" r="4" fill="#2ecc71"/>
+      <circle cx="132" cy="111" r="4" fill="#2ecc71"/>
+      <rect x="150" y="106" width="110" height="10" rx="5" fill="#22304f"/>
+      <rect x="104" y="136" width="172" height="30" rx="4" fill="#16223f"/>
+      <circle cx="118" cy="151" r="4" fill="#2ecc71"/>
+      <circle cx="132" cy="151" r="4" fill="#f39c12"/>
+      <rect x="150" y="146" width="110" height="10" rx="5" fill="#22304f"/>
+      <rect x="104" y="176" width="172" height="30" rx="4" fill="#16223f"/>
+      <circle cx="118" cy="191" r="4" fill="#2ecc71"/>
+      <circle cx="132" cy="191" r="4" fill="#2ecc71"/>
+      <rect x="150" y="186" width="110" height="10" rx="5" fill="#22304f"/>
+      <rect x="104" y="216" width="172" height="30" rx="4" fill="#16223f"/>
+      <circle cx="118" cy="231" r="4" fill="#e74c3c"/>
+      <circle cx="132" cy="231" r="4" fill="#2ecc71"/>
+      <rect x="150" y="226" width="110" height="10" rx="5" fill="#22304f"/>
+      <rect x="104" y="256" width="172" height="30" rx="4" fill="#16223f"/>
+      <circle cx="118" cy="271" r="4" fill="#2ecc71"/>
+      <circle cx="132" cy="271" r="4" fill="#2ecc71"/>
+      <rect x="150" y="266" width="110" height="10" rx="5" fill="#22304f"/>
+      <rect x="104" y="296" width="172" height="30" rx="4" fill="#16223f"/>
+      <circle cx="118" cy="311" r="4" fill="#3498db"/>
+      <circle cx="132" cy="311" r="4" fill="#2ecc71"/>
+      <rect x="150" y="306" width="110" height="10" rx="5" fill="#22304f"/>
+      <rect x="104" y="336" width="172" height="30" rx="4" fill="#16223f"/>
+      <circle cx="118" cy="351" r="4" fill="#2ecc71"/>
+      <circle cx="132" cy="351" r="4" fill="#2ecc71"/>
+      <rect x="150" y="346" width="110" height="10" rx="5" fill="#22304f"/>
+      <rect x="104" y="376" width="172" height="20" rx="4" fill="#0a1128"/>
+    </g>
+  </g>
+  <g>
+    <rect x="320" y="110" width="200" height="298" rx="10" fill="#101a33" stroke="#2a3550" stroke-width="4"/>
+    <g>
+      <rect x="334" y="126" width="172" height="30" rx="4" fill="#16223f"/>
+      <circle cx="348" cy="141" r="4" fill="#2ecc71"/>
+      <circle cx="362" cy="141" r="4" fill="#2ecc71"/>
+      <rect x="380" y="136" width="110" height="10" rx="5" fill="#22304f"/>
+      <rect x="334" y="166" width="172" height="30" rx="4" fill="#16223f"/>
+      <circle cx="348" cy="181" r="4" fill="#2ecc71"/>
+      <circle cx="362" cy="181" r="4" fill="#3498db"/>
+      <rect x="380" y="176" width="110" height="10" rx="5" fill="#22304f"/>
+      <rect x="334" y="206" width="172" height="30" rx="4" fill="#16223f"/>
+      <circle cx="348" cy="221" r="4" fill="#f39c12"/>
+      <circle cx="362" cy="221" r="4" fill="#2ecc71"/>
+      <rect x="380" y="216" width="110" height="10" rx="5" fill="#22304f"/>
+      <rect x="334" y="246" width="172" height="30" rx="4" fill="#16223f"/>
+      <circle cx="348" cy="261" r="4" fill="#2ecc71"/>
+      <circle cx="362" cy="261" r="4" fill="#2ecc71"/>
+      <rect x="380" y="256" width="110" height="10" rx="5" fill="#22304f"/>
+      <rect x="334" y="286" width="172" height="30" rx="4" fill="#16223f"/>
+      <circle cx="348" cy="301" r="4" fill="#2ecc71"/>
+      <circle cx="362" cy="301" r="4" fill="#e74c3c"/>
+      <rect x="380" y="296" width="110" height="10" rx="5" fill="#22304f"/>
+      <rect x="334" y="326" width="172" height="30" rx="4" fill="#16223f"/>
+      <circle cx="348" cy="341" r="4" fill="#2ecc71"/>
+      <circle cx="362" cy="341" r="4" fill="#2ecc71"/>
+      <rect x="380" y="336" width="110" height="10" rx="5" fill="#22304f"/>
+      <rect x="334" y="366" width="172" height="26" rx="4" fill="#0a1128"/>
+    </g>
+  </g>
+
+  <!-- cables vers le portable -->
+  <path d="M290 340 C 420 380, 520 330, 620 320" fill="none" stroke="#2ecc71" stroke-width="4" stroke-linecap="round"/>
+  <path d="M520 250 C 580 260, 600 300, 636 306" fill="none" stroke="#3498db" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- ingenieur avec portable -->
+  <ellipse cx="740" cy="412" rx="70" ry="9" fill="#000" opacity="0.35"/>
+  <rect x="716" y="326" width="18" height="66" fill="#1c2742"/>
+  <rect x="746" y="326" width="18" height="66" fill="#1c2742"/>
+  <rect x="712" y="388" width="26" height="14" rx="5" fill="#0e1526"/>
+  <rect x="742" y="388" width="26" height="14" rx="5" fill="#0e1526"/>
+  <rect x="708" y="238" width="64" height="94" rx="16" fill="#8e44ad"/>
+  <line x1="712" y1="254" x2="668" y2="300" stroke="#6c3483" stroke-width="15" stroke-linecap="round"/>
+  <circle cx="666" cy="304" r="8" fill="#8d5524"/>
+  <line x1="768" y1="254" x2="700" y2="300" stroke="#6c3483" stroke-width="15" stroke-linecap="round"/>
+  <circle cx="698" cy="304" r="8" fill="#8d5524"/>
+  <!-- portable -->
+  <rect x="636" y="266" width="86" height="52" rx="5" fill="#0a1128" stroke="#3d4b63" stroke-width="3"/>
+  <rect x="632" y="318" width="94" height="8" rx="4" fill="#3d4b63"/>
+  <g stroke="#2ecc71" stroke-width="2.5" stroke-linecap="round">
+    <line x1="646" y1="280" x2="682" y2="280"/>
+    <line x1="646" y1="292" x2="700" y2="292"/>
+    <line x1="646" y1="304" x2="672" y2="304"/>
+  </g>
+  <circle cx="706" cy="280" r="4" fill="#2ecc71"/>
+  <rect x="730" y="222" width="20" height="18" fill="#6b4226"/>
+  <ellipse cx="740" cy="196" rx="29" ry="33" fill="#8d5524"/>
+  <path d="M711 192 a29 30 0 0 1 58 0 l0 -8 q-29 -22 -58 0 Z" fill="#0d0d0d"/>
+  <circle cx="731" cy="198" r="2.6" fill="#141414"/>
+  <circle cx="749" cy="198" r="2.6" fill="#141414"/>
+  <path d="M732 210 Q740 216 748 210" stroke="#3d2410" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+
+  <!-- schema de topologie reseau -->
+  <rect x="880" y="90" width="260" height="230" rx="12" fill="#0d1630" stroke="#2a3550" stroke-width="3"/>
+  <rect x="896" y="106" width="90" height="9" rx="4.5" fill="#2ecc71"/>
+  <g stroke="#3d4b63" stroke-width="3">
+    <line x1="1010" y1="150" x2="940" y2="210"/>
+    <line x1="1010" y1="150" x2="1080" y2="210"/>
+    <line x1="1010" y1="150" x2="1010" y2="240"/>
+    <line x1="940" y1="210" x2="920" y2="280"/>
+    <line x1="1080" y1="210" x2="1100" y2="280"/>
+  </g>
+  <circle cx="1010" cy="150" r="14" fill="#1e8c3a" stroke="#2ecc71" stroke-width="3"/>
+  <circle cx="940" cy="210" r="10" fill="#16223f" stroke="#3498db" stroke-width="3"/>
+  <circle cx="1080" cy="210" r="10" fill="#16223f" stroke="#3498db" stroke-width="3"/>
+  <circle cx="1010" cy="240" r="10" fill="#16223f" stroke="#f39c12" stroke-width="3"/>
+  <circle cx="920" cy="280" r="8" fill="#16223f" stroke="#2ecc71" stroke-width="3"/>
+  <circle cx="1100" cy="280" r="8" fill="#16223f" stroke="#2ecc71" stroke-width="3"/>
+</svg>

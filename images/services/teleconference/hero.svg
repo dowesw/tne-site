@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 480" role="img" aria-labelledby="t d">
+  <title id="t">Salle de visioconference professionnelle</title>
+  <desc id="d">Deux collegues africains a peau noire participent a une visioconference avec quatre participants distants sur grand ecran.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0d1630"/>
+      <stop offset="1" stop-color="#070c1a"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.65" cy="0.3" r="0.55">
+      <stop offset="0" stop-color="#1e8c3a" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#1e8c3a" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="480" fill="url(#bg)"/>
+  <rect width="1200" height="480" fill="url(#glow)"/>
+  <circle cx="120" cy="100" r="130" fill="#2ecc71" opacity="0.05"/>
+
+  <!-- grand ecran de visio -->
+  <rect x="520" y="56" width="580" height="270" rx="14" fill="#0a1128" stroke="#2a3550" stroke-width="5"/>
+  <!-- vignette 1 : homme -->
+  <rect x="538" y="74" width="272" height="110" rx="8" fill="#101a33"/>
+  <rect x="538" y="74" width="272" height="110" rx="8" fill="none" stroke="#2ecc71" stroke-width="3"/>
+  <circle cx="674" cy="116" r="24" fill="#6b4226"/>
+  <path d="M650 112 a24 22 0 0 1 48 0 l0 -5 q-24 -16 -48 0 Z" fill="#141414"/>
+  <path d="M636 184 a38 30 0 0 1 76 0 Z" fill="#2980b9"/>
+  <circle cx="666" cy="118" r="2.4" fill="#141414"/>
+  <circle cx="682" cy="118" r="2.4" fill="#141414"/>
+  <path d="M667 128 Q674 133 681 128" stroke="#2e1c0c" stroke-width="2.2" fill="none" stroke-linecap="round"/>
+  <rect x="548" y="164" width="60" height="8" rx="4" fill="#16223f"/>
+  <circle cx="798" cy="86" r="6" fill="#e74c3c"/>
+  <!-- vignette 2 : femme -->
+  <rect x="822" y="74" width="260" height="110" rx="8" fill="#101a33"/>
+  <circle cx="952" cy="114" r="27" fill="#141414"/>
+  <ellipse cx="952" cy="118" rx="22" ry="24" fill="#8d5524"/>
+  <rect x="930" y="116" width="8" height="30" rx="4" fill="#141414"/>
+  <rect x="966" y="116" width="8" height="30" rx="4" fill="#141414"/>
+  <path d="M920 184 a36 28 0 0 1 64 0 Z" fill="#e67e22"/>
+  <circle cx="945" cy="120" r="2.2" fill="#141414"/>
+  <circle cx="959" cy="120" r="2.2" fill="#141414"/>
+  <path d="M946 130 Q952 135 958 130" stroke="#3d2410" stroke-width="2.2" fill="none" stroke-linecap="round"/>
+  <rect x="832" y="164" width="60" height="8" rx="4" fill="#16223f"/>
+  <!-- vignette 3 : femme avec casque -->
+  <rect x="538" y="196" width="272" height="110" rx="8" fill="#101a33"/>
+  <circle cx="674" cy="240" r="24" fill="#5a3a1e"/>
+  <path d="M650 236 a24 22 0 0 1 48 0 l0 -5 q-24 -16 -48 0 Z" fill="#0d0d0d"/>
+  <path d="M650 238 a24 24 0 0 1 48 0" fill="none" stroke="#0a0a0a" stroke-width="5"/>
+  <rect x="646" y="232" width="8" height="16" rx="4" fill="#141414"/>
+  <rect x="694" y="232" width="8" height="16" rx="4" fill="#141414"/>
+  <line x1="698" y1="248" x2="688" y2="258" stroke="#141414" stroke-width="3.5" stroke-linecap="round"/>
+  <path d="M636 306 a38 30 0 0 1 76 0 Z" fill="#1e8c3a"/>
+  <circle cx="666" cy="242" r="2.4" fill="#e8edf5"/>
+  <circle cx="682" cy="242" r="2.4" fill="#e8edf5"/>
+  <rect x="548" y="286" width="60" height="8" rx="4" fill="#16223f"/>
+  <!-- vignette 4 : homme avec lunettes -->
+  <rect x="822" y="196" width="260" height="110" rx="8" fill="#101a33"/>
+  <circle cx="952" cy="238" r="24" fill="#7a4a21"/>
+  <path d="M928 234 a24 22 0 0 1 48 0 l0 -5 q-24 -16 -48 0 Z" fill="#141414"/>
+  <circle cx="944" cy="240" r="6" fill="none" stroke="#e8edf5" stroke-width="2"/>
+  <circle cx="960" cy="240" r="6" fill="none" stroke="#e8edf5" stroke-width="2"/>
+  <line x1="950" y1="240" x2="954" y2="240" stroke="#e8edf5" stroke-width="2"/>
+  <path d="M920 306 a36 28 0 0 1 64 0 Z" fill="#8e44ad"/>
+  <path d="M945 252 Q952 257 959 252" stroke="#3d2410" stroke-width="2.2" fill="none" stroke-linecap="round"/>
+  <rect x="832" y="286" width="60" height="8" rx="4" fill="#16223f"/>
+
+  <!-- barre camera -->
+  <rect x="780" y="334" width="100" height="12" rx="6" fill="#141414"/>
+  <circle cx="830" cy="340" r="4" fill="#2ecc71"/>
+
+  <!-- sol -->
+  <rect x="0" y="408" width="1200" height="72" fill="#0a1128"/>
+  <rect x="0" y="408" width="1200" height="3" fill="#1e8c3a" opacity="0.5"/>
+
+  <!-- table de reunion -->
+  <polygon points="60,352 460,352 500,420 20,420" fill="#2a3550"/>
+  <polygon points="60,352 460,352 468,364 52,364" fill="#3d4b63"/>
+
+  <!-- participant 1 (de dos) -->
+  <rect x="128" y="320" width="90" height="52" rx="18" fill="#1e8c3a"/>
+  <circle cx="173" cy="288" r="32" fill="#141414"/>
+  <circle cx="145" cy="292" r="6" fill="#6b4226"/>
+  <circle cx="201" cy="292" r="6" fill="#6b4226"/>
+  <rect x="160" y="312" width="26" height="14" fill="#52321a"/>
+
+  <!-- participant 2 (de dos, leve la main) -->
+  <rect x="300" y="320" width="90" height="52" rx="18" fill="#8e44ad"/>
+  <circle cx="345" cy="288" r="32" fill="#141414"/>
+  <circle cx="317" cy="292" r="6" fill="#8d5524"/>
+  <circle cx="373" cy="292" r="6" fill="#8d5524"/>
+  <rect x="332" y="312" width="26" height="14" fill="#6b4226"/>
+  <line x1="380" y1="330" x2="440" y2="268" stroke="#6c3483" stroke-width="15" stroke-linecap="round"/>
+  <circle cx="443" cy="264" r="9" fill="#8d5524"/>
+
+  <!-- ordinateur portable sur la table -->
+  <rect x="232" y="312" width="60" height="36" rx="3" fill="#0a1128" stroke="#3d4b63" stroke-width="2" transform="skewX(-6)"/>
+  <polygon points="226,352 300,352 306,360 222,360" fill="#3d4b63"/>
+  <circle cx="262" cy="330" r="8" fill="none" stroke="#2ecc71" stroke-width="3"/>
+  <path d="M258 330 l3 3 l6 -6" stroke="#2ecc71" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- micros de table -->
+  <ellipse cx="110" cy="382" rx="20" ry="9" fill="#141414"/>
+  <line x1="110" y1="380" x2="118" y2="362" stroke="#3d4b63" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="119" cy="360" r="5" fill="#3d4b63"/>
+  <ellipse cx="430" cy="390" rx="20" ry="9" fill="#141414"/>
+  <line x1="430" y1="388" x2="438" y2="370" stroke="#3d4b63" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="439" cy="368" r="5" fill="#3d4b63"/>
+
+  <!-- ondes audio -->
+  <g fill="none" stroke="#2ecc71" stroke-linecap="round" opacity="0.6">
+    <path d="M488 250 a16 16 0 0 1 0 22" stroke-width="4"/>
+    <path d="M476 240 a28 28 0 0 1 0 42" stroke-width="4" opacity="0.5"/>
+  </g>
+</svg>
